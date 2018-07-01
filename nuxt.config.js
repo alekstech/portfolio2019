@@ -48,7 +48,7 @@ module.exports = {
   */
   css: [
     {
-      src: 'assets/css/global.styl',
+      src: '~/assets/css/global.styl',
       lang: 'styl'
     }
   ]
