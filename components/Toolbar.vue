@@ -1,7 +1,10 @@
 <template>
   <v-toolbar app>
 
-    <svg :src="require('~/assets/images/logo.svg')">
+    <svg
+      src="/images/logo.svg"
+      class="image"
+    />
 
     <v-spacer />
 

@@ -6,7 +6,7 @@
       offset-sm3>
       <v-card>
         <v-card-media
-          :src="require('~/assets/images/zmack.jpg')"
+          src="/images/zmack.jpg"
           height="200px"
         />
 
