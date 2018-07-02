@@ -1,9 +1,24 @@
 <template>
-  <div>
-    <Toolbar/>
-    <nuxt/>
-  </div>
+  <v-app>
+    <toolbar/>
+    <v-content>
+      <v-container fluid>
+        <nuxt/>
+      </v-container>
+    </v-content>
+    <v-footer app />
+  </v-app>
 </template>
+
+<script>
+import Toolbar from '~/components/Toolbar'
+
+export default {
+  components: {
+    'toolbar': Toolbar
+  }
+}
+</script>
 
 <style>
 html {
