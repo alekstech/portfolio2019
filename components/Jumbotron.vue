@@ -17,13 +17,7 @@
             nuxt 
             ripple
           >
-            Work
-          </v-btn>
-
-          <v-btn
-            @click="$store.commit('increment')"
-          >
-            {{ $store.state.counter }}
+            View portfolio
           </v-btn>
 
         </v-flex>
