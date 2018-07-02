@@ -17,7 +17,7 @@
             nuxt 
             ripple
           >
-            View portfolio
+            See my work
           </v-btn>
 
         </v-flex>

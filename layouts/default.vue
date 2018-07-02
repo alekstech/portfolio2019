@@ -1,12 +1,16 @@
 <template>
   <v-app>
+
     <toolbar/>
-    <v-content>
-      <v-container fluid>
+
+    <v-container fill-height>
+
+      <main>
         <nuxt/>
-      </v-container>
-    </v-content>
-    <v-footer app />
+      </main>
+
+    </v-container>
+
   </v-app>
 </template>
 
@@ -16,6 +20,17 @@ import Toolbar from '~/components/Toolbar'
 export default {
   components: {
     'toolbar': Toolbar
+  },
+  computed: {
+    toolbarHeight () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return '220px'
+        case 'sm': return '400px'
+        case 'md': return '500px'
+        case 'lg': return '600px'
+        case 'xl': return '800px'
+      }
+    }
   }
 }
 </script>

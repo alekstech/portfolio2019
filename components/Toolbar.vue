@@ -1,13 +1,13 @@
 <template>
-  <v-toolbar app>
+  <v-toolbar>
 
     <nuxt-link 
       to="/"
-      class="svg-container" 
+      class="logo-container" 
     >
 
       <svg
-        class="svg"
+        class="logo pa-1"
         xmlns="http://www.w3.org/2000/svg"
         width="100%"
         height="auto"
@@ -53,6 +53,7 @@
     </v-toolbar-items>
 
   </v-toolbar>    
+
 </template>
 
 
@@ -62,3 +63,16 @@ export default {
     name: 'Toolbar'
 }
 </script>
+
+<style scoped>
+.logo-container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+</style>
