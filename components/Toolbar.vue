@@ -1,7 +1,7 @@
 <template>
   <v-toolbar app>
 
-    <v-toolbar-title>Aleks Sobieraj</v-toolbar-title>
+    <svg :src="require('~/assets/images/logo.svg')">
 
     <v-spacer />
 
