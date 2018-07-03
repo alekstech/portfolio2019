@@ -1,10 +1,11 @@
 <template>
-  <v-toolbar>
+  <v-toolbar
+    fixed
+    flat>
 
     <nuxt-link 
       to="/"
-      class="logo-container" 
-    >
+      class="logo-container">
 
       <svg
         class="logo pa-1"
@@ -52,7 +53,7 @@
 
     </v-toolbar-items>
 
-  </v-toolbar>    
+  </v-toolbar>
 
 </template>
 
@@ -60,7 +61,7 @@
 
 <script>
 export default {
-    name: 'Toolbar'
+  name: 'Toolbar'
 }
 </script>
 

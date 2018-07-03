@@ -1,9 +1,12 @@
 <template>
-  <v-app>
+  <v-app class="app">
 
     <toolbar/>
 
-    <v-container fill-height>
+    <v-container 
+      :class="toolbarPadding"
+      fill-height
+    >
 
       <main>
         <nuxt/>
@@ -22,62 +25,40 @@ export default {
     'toolbar': Toolbar
   },
   computed: {
-    toolbarHeight () {
+    toolbarPadding () {
       switch (this.$vuetify.breakpoint.name) {
-        case 'xs': return '220px'
-        case 'sm': return '400px'
-        case 'md': return '500px'
-        case 'lg': return '600px'
-        case 'xl': return '800px'
+        case 'xs': return 'pt-56px'
+        case 'sm': return 'pt-48px'
+        case 'md': return 'pt-64px'
+        case 'lg': return 'pt-64px'
+        case 'xl': return 'pt-64px'
       }
     }
   }
 }
 </script>
 
-<style>
-html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<style scoped>
+.app::-webkit-scrollbar {
+  width: 1em;
+}
+  
+.app::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+  
+.app::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
+.pt-48px {
+  padding-top: 48px;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+.pt-56px {
+  padding-top: 56px;
 }
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.pt-64px {
+  padding-top: 64px;
 }
 </style>
