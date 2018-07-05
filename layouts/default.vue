@@ -8,7 +8,7 @@
       fill-height
     >
 
-      <main>
+      <main class="width-100">
         <nuxt/>
       </main>
 
