@@ -1,18 +1,18 @@
 <template>
-  <jumbotron />
+  <div>
+    <jumbotron />
+    <skill />
+  </div>
 </template>
 
 <script>
 import Jumbotron from '~/components/Jumbotron'
+import Skill from '~/components/Skill'
 
 export default {
   components: {
-    'jumbotron': Jumbotron
-  },
-  watch: {
-  '$vuetify.breakpoint.name': function () {
-      console.log(this.$vuetify.breakpoint.name)
-    }
+    'jumbotron': Jumbotron,
+    'skill': Skill
   }
 }
 </script>

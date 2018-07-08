@@ -9,17 +9,6 @@
 
           <v-divider class="my-3" />
 
-          <v-btn
-            class="mx-0"
-            large
-            flat
-            href="/portfolio" 
-            nuxt 
-            ripple
-          >
-            See my work
-          </v-btn>
-
         </v-flex>
       </v-layout>
     </v-container>
