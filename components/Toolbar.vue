@@ -40,20 +40,24 @@
       align-end
       class="hidden-xs-only">
 
-      <v-btn 
-        flat
-        href="/blog"
-        nuxt
-      >
-        Blog
-      </v-btn>
-      <v-btn 
-        flat
-        href="/portfolio"
-        nuxt
-      >
-        Portfolio
-      </v-btn>
+      <nuxt-link   
+        to="/blog"
+        class="d-block">
+        <v-btn 
+          flat
+        >
+          Blog
+        </v-btn>
+      </nuxt-link>
+      <nuxt-link   
+        to="/portfolio"
+        class="d-block">
+        <v-btn 
+          flat
+        >
+          Portfolio
+        </v-btn>
+      </nuxt-link>
 
     </v-flex>
 
