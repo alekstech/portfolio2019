@@ -1,12 +1,29 @@
 <template>
-  <div class="diffy-helman__container">
-    <v-text-field 
-      v-model="diffy"
-      solo />
-    <v-text-field 
-      v-model="helman"
-      solo />
-  </div>
+  <v-flex xs12>
+    <v-flex 
+      xs6 
+      offset-xs3>
+      <v-text-field
+        v-model="shared"
+        solo />
+    </v-flex>
+    <v-container>
+      <v-flex 
+        d-inline-flex
+        xs6>
+        <v-text-field 
+          v-model="diffy"
+          solo />
+      </v-flex>
+      <v-flex 
+        d-inline-flex
+        xs6>
+        <v-text-field 
+          v-model="helman"
+          solo />
+      </v-flex>
+    </v-container>
+  </v-flex>
 </template>
 
 <script>
@@ -24,9 +41,6 @@ export default {
 }
 </script>
 
-<style>
-.diffy-helman__container {
-  width: 100%;
-  display: flex;
-}
+<style scoped>
+
 </style>
