@@ -1,22 +1,24 @@
-# alekstech
+showcase (video)
+- menu multiselect: state, nesting, computed properties, a11y
+- presets: UI of a McD kiosk
 
-> Portfolio
+portfolio (cards)
+- eCommerce CMS admin panel (CSS, JS, workflow)
+- locations finder: Google Maps, sharing state
+- Textile Museum: working with customer
+- aleks.tech: Vue, Vuetify, GraphQL, Nuxt
 
-## Build Setup
+skills (colloquial)
+- manage projects
+- work to spec
+- guide interns and new hires
+- work remotely
+- write javascript, CSS and HTML in numerous ways
+- understand content hierarchy
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+goals
+- build an SSR PWA
+- learn Typescript
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+blog
+- snippets, images, references with sources cited
