@@ -32,32 +32,25 @@
       </nuxt-link>
     </v-flex>
 
-    <v-icon class="hidden-sm-and-up" />
-
     <v-flex
       d-inline-flex
-      xs6
-      align-end
-      class="hidden-xs-only">
+      align-end>
 
-      <nuxt-link   
+      <v-btn 
+        flat
         to="/blog"
-        class="d-block">
-        <v-btn 
-          flat
-        >
-          Blog
-        </v-btn>
-      </nuxt-link>
-      <nuxt-link   
-        to="/portfolio"
-        class="d-block">
-        <v-btn 
-          flat
-        >
-          Portfolio
-        </v-btn>
-      </nuxt-link>
+        nuxt
+        color="success"
+      >
+        Work
+      </v-btn>
+      <v-btn 
+        flat
+        to="/blog"
+        nuxt
+      >
+        Snippets
+      </v-btn>
 
     </v-flex>
 
@@ -70,6 +63,9 @@
 export default {
   name: 'Toolbar',
     computed: {
+    breakpoint () {
+      return this.$vuetify.breakpoint.name
+    },
     toolbarHeight () {
       switch (this.$vuetify.breakpoint.name) {
         case 'xs': return 'h-56px'

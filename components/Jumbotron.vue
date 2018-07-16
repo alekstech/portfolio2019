@@ -1,18 +1,13 @@
 <template>
-  <v-jumbotron>
-    <v-container fill-height>
-      <v-layout align-center>
-        <v-flex>
-          <h3 class="display-3">Hi, my name is Aleks</h3>
-
-          <span class="subheading">I'm a front-end web developer</span>
-
-          <v-divider class="my-3" />
-
-        </v-flex>
-      </v-layout>
-    </v-container>
-  </v-jumbotron>
+  <v-container fill-height>
+    <v-layout align-center>
+      <v-flex>
+        <h1 class="headline">Hi, my name is Aleks</h1>
+        <v-divider class="my-3" />
+        <h2 class="title">I'm a web developer</h2>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

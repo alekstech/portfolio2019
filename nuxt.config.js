@@ -36,20 +36,10 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    vendor: ['~/plugins/vuetify.js']
+    }
   },
   /*
   ** Load Vuetify into the app
   */
-  plugins: ['~/plugins/vuetify'],
-  /*
-  ** Load global CSS
-  */
-  css: [
-    {
-      src: '~/assets/css/global.styl',
-      lang: 'styl'
-    }
-  ]
+  plugins: ['~/plugins/vuetify']
 }
