@@ -14,16 +14,21 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
-    ]
+    ],
   },
+  plugins: ['~/plugins/vuetify.js'],
+  css: [
+    '~/assets/style/app.styl'
+  ],
   /*
-  ** Customize the progress bar color
+  ** Progress bar color
   */
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
   build: {
+    vendor: [
+      '~/plugins/vuetify.js'
+    ],
+    extractCSS: true,
     /*
     ** Run ESLint on save
     */
@@ -37,9 +42,5 @@ module.exports = {
         })
       }
     }
-  },
-  /*
-  ** Load Vuetify into the app
-  */
-  plugins: ['~/plugins/vuetify']
+  }
 }

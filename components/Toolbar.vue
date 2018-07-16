@@ -40,7 +40,8 @@
         flat
         to="/blog"
         nuxt
-        color="success"
+        class="red--text text--lighten-1 
+        pink lighten-5"
       >
         Work
       </v-btn>
