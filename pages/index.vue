@@ -1,18 +1,18 @@
 <template>
   <div>
     <jumbotron />
-    <skill />
+    <skill-cards />
   </div>
 </template>
 
 <script>
 import Jumbotron from '~/components/Jumbotron'
-import Skill from '~/components/Skill'
+import SkillCards from '~/components/SkillCards'
 
 export default {
   components: {
     'jumbotron': Jumbotron,
-    'skill': Skill
+    'skill-cards': SkillCards
   }
 }
 </script>

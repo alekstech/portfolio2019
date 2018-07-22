@@ -1,10 +1,7 @@
 <template>
   <v-container>
     <v-flex>
-      <img
-        src="image.jpg" 
-        alt="tech logo">
-      <p>Vue</p>
+      <vue-logo />
       <p>I built</p>
       <ul>
         <li>brochure sites, to match provided designs</li>
@@ -17,9 +14,6 @@
     </v-flex>
 
     <v-flex>
-      <img
-        src="image.jpg" 
-        alt="tech logo">
       <p>team work</p>
       <p>I have</p>
       <ul>
@@ -31,9 +25,6 @@
     </v-flex>
 
     <v-flex>
-      <img
-        src="image.jpg" 
-        alt="tech logo">
       <p>other</p>
       <p>I have also</p>
       <ul>
@@ -48,7 +39,11 @@
   </v-container>
 </template>
 <script>
+import VueLogo from '~/assets/images/Vue.js_Logo.svg'
 export default {
-  name: 'Skill'
+  name: 'Skill',
+  components: {
+    'vue-logo': VueLogo
+  }
 }
 </script>
