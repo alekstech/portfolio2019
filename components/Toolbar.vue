@@ -38,7 +38,7 @@
 
       <v-btn 
         flat
-        to="/blog"
+        to="/portfolio"
         nuxt
         class="red--text text--lighten-1 
         pink lighten-5"

@@ -1,78 +1,78 @@
 <template>
   <v-container>
+    <v-layout 
+      row 
+      wrap
+      justify-space-around>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <vue-logo />
+      </v-flex>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <git-logo />
+      </v-flex>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <webpack-logo />
+      </v-flex>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <vuetify-logo />
+      </v-flex>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <nuxt-logo />
+      </v-flex>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <js-logo />
+      </v-flex>
+      <v-flex
+        d-inline-flex
+        xs3
+        class="tech-logo">
+        <css-logo />
+      </v-flex>
+    </v-layout>
+
     <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <vue-logo />
-    </v-flex>
-    <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <git-logo />
-    </v-flex>
-    <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <webpack-logo />
-    </v-flex>
-    <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <vuetify-logo />
-    </v-flex>
-    <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <nuxt-logo />
-    </v-flex>
-    <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <js-logo />
-    </v-flex>
-    <v-flex
-      d-inline-flex
-      xs1
-      class="tech-logo">
-      <css-logo />
-    </v-flex>
-    <v-flex>
-      <p>I built</p>
+      xs12>
+      <h1 class="display-1">products</h1>
       <ul>
-        <li>brochure sites, to match provided designs</li>
-        <li>store finders</li>
-        <li>large custom CMS admin panels</li>
+        <li>brochure sites</li>
+        <li>store finder with map</li>
+        <li>multiple versions of a large custom CMS admin panel</li>
         <li>complex frontend routers</li>
-        <li>apps using ElementUI and Vuetify </li>
-        <li>Vuex and Nuxt projects</li>
+        <li>ElementUI and Vuetify forms</li>
+        <li>UI flows based on user stories and APIs</li>
+        <li>AODA compliance improvements</li>
+        <li>l18n retro-fit in Angular 5</li>
+        <li>React sites</li>
+        <li>Flutter Hello World</li>
       </ul>
     </v-flex>
 
-    <v-flex>
-      <p>team work</p>
-      <p>I have</p>
+    <v-flex
+      xs12>
+      <h1 class="display-1">team work</h1>
       <ul>
-        <li>worked with backend developers on feature development</li>
-        <li>helped junior colleagues get started on projects</li>
-        <li>peer reviewed commits</li>
-        <li>taken part in knowledge sharing sessions</li>
-      </ul>
-    </v-flex>
-
-    <v-flex>
-      <p>other</p>
-      <p>I have also</p>
-      <ul>
-        <li>improved AODA compliance</li>
-        <li>retro-fitted l18n into an Angular project</li>
-        <li>built React projects</li>
-        <li>played with Flutter, Docker, AWS</li>
+        <li>worked with backend developers on API development</li>
+        <li>scoped and reviewed projects with colleagues</li>
+        <li>reviewed builds and code</li>
+        <li>took part in knowledge sharing sessions</li>
         <li>volunteered, attended tech events</li>
       </ul>
     </v-flex>
