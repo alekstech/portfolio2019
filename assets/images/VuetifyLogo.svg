@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="auto"
+   viewBox="0 0 100 100"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="WebpackLogo.svg">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="0.80546075"
+     inkscape:cx="-60.711864"
+     inkscape:cy="146.5"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4"
+     transform="matrix(0.34192486,0,0,0.34192486,6.2336179,8.90625e-7)">
+    <polyline
+       points="128 0 68 0 128 141.816367"
+       id="polyline6"
+       style="fill:#1697f6" />
+    <polyline
+       points="128 0 188 0 128 141.816367"
+       id="polyline8"
+       style="fill:#1867c0" />
+    <polyline
+       points="128 182.743732 128 292.459439 0 42.5575194 67.0490402 42.5575194"
+       id="polyline10"
+       style="fill:#7bc6ff" />
+    <polyline
+       points="128 182.746214 128 292.461921 256 42.5600014 188.95096 42.5600014"
+       id="polyline12"
+       style="fill:#aeddff" />
+  </g>
+</svg>
