@@ -1,7 +1,7 @@
 <template>
   <v-container fill-height>
     <v-layout align-center>
-      <v-flex>
+      <v-flex class="my-5">
         <h1 class="headline">Hi, my name is Aleks</h1>
         <v-divider class="my-3" />
         <h2 class="title">I'm a web developer</h2>

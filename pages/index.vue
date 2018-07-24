@@ -1,18 +1,24 @@
 <template>
   <div>
     <jumbotron />
-    <skill-cards />
+    <products />
+    <tech-logos />
+    <skills />
   </div>
 </template>
 
 <script>
 import Jumbotron from '~/components/Jumbotron'
-import SkillCards from '~/components/SkillCards'
+import TechLogos from '~/components/TechLogos'
+import Products from '~/components/Products'
+import Skills from '~/components/Skills'
 
 export default {
   components: {
     'jumbotron': Jumbotron,
-    'skill-cards': SkillCards
+    'tech-logos': TechLogos,
+    'products': Products,
+    'skills': Skills
   }
 }
 </script>
