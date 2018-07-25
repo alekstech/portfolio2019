@@ -1,24 +1,22 @@
-showcase (video)
-- menu multiselect: state, nesting, computed properties, a11y
-- presets: UI of a McD kiosk
+# alekstech
 
-portfolio (cards)
-- eCommerce CMS admin panel (CSS, JS, workflow)
-- locations finder: Google Maps, sharing state
-- Textile Museum: working with customer
-- aleks.tech: Vue, Vuetify, GraphQL, Nuxt
+> Aleks Sobieraj portfolio
 
-skills (colloquial)
-- manage projects
-- work to spec
-- guide interns and new hires
-- work remotely
-- write javascript, CSS and HTML in numerous ways
-- understand content hierarchy
+## Build Setup
 
-goals
-- build an SSR PWA
-- learn Typescript
+``` bash
+# install dependencies
+$ npm install # Or yarn install
 
-blog
-- snippets, images, references with sources cited
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.

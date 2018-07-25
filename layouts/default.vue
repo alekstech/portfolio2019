@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import '~/assets/css/global.styl'
 import Toolbar from '~/components/Toolbar'
 
 export default {

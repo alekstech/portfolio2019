@@ -1,4 +1,5 @@
-var nodeExternals = require('webpack-node-externals')
+const nodeExternals = require('webpack-node-externals')
+const resolve = (dir) => require('path').join(__dirname, dir)
 
 module.exports = {
   /*
@@ -9,23 +10,35 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Portfolio' }
+      { hid: 'description', name: 'description', content: 'Aleks Sobieraj portfolio' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
-    ],
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
+    ]
   },
   plugins: ['~/plugins/vuetify.js'],
   css: [
     '~/assets/style/app.styl'
   ],
   /*
-  ** Progress bar color
+  ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  /*
+  ** Build configuration
+  */
   build: {
-
+    babel: {
+      plugins: [
+        ["transform-imports", {
+          "vuetify": {
+            "transform": "vuetify/es5/components/${member}",
+            "preventFullImport": true
+          }
+        }]
+      ]
+    },
     vendor: [
       '~/plugins/vuetify.js'
     ],
@@ -33,14 +46,21 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
+    extend (config, ctx) {
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+      if (ctx.isServer) {
+        config.externals = [
+          nodeExternals({
+            whitelist: [/^vuetify/]
+          })
+        ]
       }
       const urlLoader = config.module.rules.find((rule) => rule.loader === 'url-loader')
       urlLoader.test = /\.(png|jpe?g|gif)$/
