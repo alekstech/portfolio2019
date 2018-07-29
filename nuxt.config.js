@@ -10,7 +10,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Aleks Sobieraj portfolio' }
+      { hid: 'description', name: 'description', content: 'work portfolio of Aleks Sobieraj, web developer in Toronto, Ontario' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
