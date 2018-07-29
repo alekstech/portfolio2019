@@ -7,7 +7,7 @@
 
     <v-container >
 
-      <main class="width-100">
+      <main>
         <nuxt/>
       </main>
 

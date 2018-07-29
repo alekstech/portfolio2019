@@ -1,48 +1,42 @@
 <template>
-  <v-flex 
-    :class="toolbarHeight"
-    d-flex
-    align-content-space-between>
-
-    <v-flex
-      d-inline-flex
-      xs3>
-      <nuxt-link   
-        to="/"
-        class="d-block">
-
-        <a-logo />
-
-      </nuxt-link>
-    </v-flex>
-
-    <v-flex
-      d-inline-flex
-      align-end>
-
+  <v-toolbar
+    flat>
+    <v-btn 
+      nuxt
+      icon
+      flat
+      to="/"
+      class="
+        teal--text 
+      "
+    >
+      <a-logo />
+    </v-btn>
+    <v-spacer></v-spacer>
+    <v-toolbar-items>
       <v-btn 
         flat
         to="/portfolio"
         nuxt
         class="
-          teal
           teal--text 
-          text--lighten-5 
         "
       >
-        Work
+        Portfolio
       </v-btn>
+
       <v-btn 
         flat
-        to="/blog"
+        to="/contact"
         nuxt
+        class="
+          teal--text 
+        "
       >
-        Snippets
+        Contact
       </v-btn>
-
-    </v-flex>
-
-  </v-flex>
+    </v-toolbar-items>
+  </v-toolbar>
 </template>
 
 
@@ -72,6 +66,14 @@ export default {
 </script>
 
 <style scoped>
+.v-btn--active:before {
+  background-color: transparent;
+}
+.v-btn--active .v-btn__content {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #009688;
+}
 .h-48px {
   height: 48px;
 }

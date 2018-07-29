@@ -7,7 +7,7 @@
         font-weight-bold
         mb-3
       ">
-      skills
+      things I have done
     </h1>
 
     <ul 
@@ -15,11 +15,13 @@
       body-2
       font-weight-regular
     ">
-      <li class="mb-2">worked with backend developers on API development</li>
+      <li class="mb-2">built, tested and deployed Vue front ends</li>
+      <li class="mb-2">used UI frameworks, maps and other libraries</li>
+      <li class="mb-2">planned layouts and styled to spec</li>
+      <li class="mb-2">participated in API development</li>
       <li class="mb-2">scoped and reviewed projects with colleagues</li>
-      <li class="mb-2">reviewed builds and code</li>
-      <li class="mb-2">took part in knowledge sharing sessions</li>
-      <li class="mb-2">volunteered, attended tech events</li>
+      <li class="mb-2">shared knowledge, experience and code</li>
+      <li class="mb-2">volunteered and attended tech events</li>
     </ul>
 
   </v-container>

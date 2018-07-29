@@ -1,18 +1,15 @@
 <template>
   <div class="width-100">
-    <post-card>
-      <diffy-helman />
-    </post-card>
+    <products />
   </div>
 </template>
 
 <script>
-import DiffyHelman from '~/components/DiffyHelman'
-import PostCard from '~/components/PostCard'
+import Products from '~/components/Products'
+
 export default {
   components: {
-    'post-card': PostCard,
-    'diffy-helman': DiffyHelman
+    'products': Products
   }
 }
 </script>
