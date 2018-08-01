@@ -96,6 +96,24 @@
         hidden-xs-only class="tech-logo">
         <sequelize-logo />
       </v-flex>
+      <v-flex 
+        d-inline-flex 
+        xs2 
+        hidden-xs-only class="tech-logo">
+        <bitbucket-logo />
+      </v-flex>
+      <v-flex 
+        d-inline-flex 
+        xs2 
+        hidden-xs-only class="tech-logo">
+        <trello-logo />
+      </v-flex>
+      <v-flex 
+        d-inline-flex 
+        xs2 
+        hidden-xs-only class="tech-logo">
+        <source-tree-logo />
+      </v-flex>
     </v-layout>
 
   </v-container>
@@ -117,6 +135,9 @@ import NodeJSLogo from '~/assets/images/NodeJSLogo.svg'
 import PostgreSQLLogo from '~/assets/images/PostgreSQLLogo.svg'
 import ReduxLogo from '~/assets/images/ReduxLogo.svg'
 import SequelizeLogo from '~/assets/images/SequelizeLogo.svg'
+import BitbucketLogo from '~/assets/images/BitbucketLogo.svg'
+import SourceTreeLogo from '~/assets/images/SourceTreeLogo.svg'
+import TrelloLogo from '~/assets/images/TrelloLogo.svg'
 
 export default {
   name: 'Skill',
@@ -136,7 +157,10 @@ export default {
     'node-js-logo': NodeJSLogo,
     'postgre-sql-logo': PostgreSQLLogo,
     'redux-logo': ReduxLogo,
-    'sequelize-logo': SequelizeLogo
+    'sequelize-logo': SequelizeLogo,
+    'bitbucket-logo': BitbucketLogo,
+    'source-tree-logo': SourceTreeLogo,
+    'trello-logo': TrelloLogo
   }
 }
 </script>
