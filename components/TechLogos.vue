@@ -114,6 +114,12 @@
         hidden-xs-only class="tech-logo">
         <source-tree-logo />
       </v-flex>
+      <v-flex 
+        d-inline-flex 
+        xs2 
+        hidden-xs-only class="tech-logo">
+        <jira-logo />
+      </v-flex>
     </v-layout>
 
   </v-container>
@@ -138,6 +144,7 @@ import SequelizeLogo from '~/assets/images/SequelizeLogo.svg'
 import BitbucketLogo from '~/assets/images/BitbucketLogo.svg'
 import SourceTreeLogo from '~/assets/images/SourceTreeLogo.svg'
 import TrelloLogo from '~/assets/images/TrelloLogo.svg'
+import JIRALogo from '~/assets/images/JIRALogo.svg'
 
 export default {
   name: 'Skill',
@@ -160,7 +167,8 @@ export default {
     'sequelize-logo': SequelizeLogo,
     'bitbucket-logo': BitbucketLogo,
     'source-tree-logo': SourceTreeLogo,
-    'trello-logo': TrelloLogo
+    'trello-logo': TrelloLogo,
+    'jira-logo': JIRALogo
   }
 }
 </script>
