@@ -1,44 +1,49 @@
 <template>
   <v-container>
 
-    <h1 
-      class="
-        headline
-        font-weight-bold
-        mb-3
-      ">
-      things I have built
-    </h1>
-
-    <ul 
-      class="
-        body-2
-        font-weight-regular
-      ">
-      <li class="mb-2">multiple versions of a large custom CMS admin panel</li>
-      <li class="mb-2">brochure sites</li>
-      <li class="mb-2">store finder with map</li>
-      <li class="mb-2">ElementUI and Vuetify pages</li>
-      <li class="mb-2">UI flows based on user stories and APIs</li>
-      <li class="mb-2">frontend routers</li>
-      <li class="mb-2">a11y layers for pages and forms</li>
-      <li class="mb-2">l18n layer</li>
-      <li class="mb-2">CASL-like frontend permissions layer</li>
-      <li class="mb-2">small React app, complete with JWT login and a Postgres database</li>
-      <li class="mb-2">Flutter Hello World</li>
-    </ul>
+      <v-list>
+        <v-subheader>
+          things I have built
+        </v-subheader>
+        <v-list-tile
+          v-for="(skill, index) in skills"
+          :key="index"
+        >
+          <v-list-tile-content>
+            <v-list-tile-title>{{skill.header}}</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
 
   </v-container>
 </template>
 
-<style scoped>
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+<script>
+export default {
+  data: () => ({
+    skills: [
+      {
+        header: 'large custom CMS frontend, in multiple versions'
+      },
+      {
+        header: 'brochure sites'
+      },
+      {
+        header: 'Find A Location Near You widget'
+      },
+      {
+        header: 'customer invoicing widget'
+      },
+      {
+        header: 'accessibility (AODA) layer for a brochure site'
+      },
+      {
+        header: 'custom user interaction logger'
+      },
+      {
+        header: 'internationalization layer in an Angular app'
+      }
+    ]
+  })
 }
-li {
-  padding: 0;
-  margin: 0;
-}
-</style>
+</script>

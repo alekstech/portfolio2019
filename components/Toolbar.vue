@@ -1,17 +1,20 @@
 <template>
   <v-toolbar
     flat>
-    <v-btn 
-      nuxt
-      icon
+    <v-btn
       flat
       to="/"
+      nuxt
+      icon
       class="
-        teal--text 
+        teal--text
       "
     >
-      <a-logo />
+      <div class="home-button">
+        <a-logo class="logo" />
+      </div>
     </v-btn>
+
     <v-spacer></v-spacer>
     <v-toolbar-items>
       <v-btn 
@@ -84,8 +87,11 @@ export default {
   height: 64px;
 }
 
+.home-button {
+  height: 100%;
+}
+
 .logo {
   max-height: 100%;
-  width: auto;
 }
 </style>

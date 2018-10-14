@@ -1,10 +1,9 @@
 <svg
-  class="logo pa-1"
   xmlns="http://www.w3.org/2000/svg"
-  width="100%"
-  height="auto"
+  width="auto"
+  height="100%"
   viewBox="0 0 285.946 302.327"
-  preserveAspectRatio="xMinYMid meet">
+>
   <g
     stroke="#00796b"
     stroke-width="3.75"
