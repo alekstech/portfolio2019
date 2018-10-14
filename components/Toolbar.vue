@@ -25,7 +25,18 @@
           teal--text 
         "
       >
-        Portfolio
+        Projects
+      </v-btn>
+
+      <v-btn 
+        flat
+        to="/skills"
+        nuxt
+        class="
+          teal--text 
+        "
+      >
+        Skills
       </v-btn>
 
       <v-btn 
