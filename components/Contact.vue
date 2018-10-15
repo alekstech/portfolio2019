@@ -6,20 +6,38 @@
     <v-flex 
       d-inline-flex 
       xs3
-      class="tech-logo">
-      <github-logo />
+      class="tech-logo">    
+      <v-btn
+        icon
+        href="https://github.com/blurges"
+        target="_blank"
+      >
+        <github-logo />
+      </v-btn>
     </v-flex>
     <v-flex 
       d-inline-flex 
       xs3
       class="tech-logo">
-      <linked-in-logo />
+      <v-btn
+        icon
+        href="https://www.linkedin.com/in/aleksander-sobieraj"
+        target="_blank"
+      >
+        <linked-in-logo />
+      </v-btn>
     </v-flex>
     <v-flex 
       d-inline-flex 
       xs3
-      class="tech-logo">
+      class="tech-logo"
+    >
+      <v-btn
+        icon
+        href="mailto:contact@aleks.tech"
+      >
         <closed-envelope-icon />
+      </v-btn>
     </v-flex>
   </v-container>
 </template>

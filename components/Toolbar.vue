@@ -41,6 +41,17 @@
 
       <v-btn 
         flat
+        to="/tech"
+        nuxt
+        class="
+          teal--text 
+        "
+      >
+        Tech
+      </v-btn>
+
+      <v-btn 
+        flat
         to="/contact"
         nuxt
         class="

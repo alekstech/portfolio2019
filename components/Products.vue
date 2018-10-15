@@ -3,7 +3,7 @@
 
       <v-list>
         <v-subheader>
-          things I have built
+          I have built
         </v-subheader>
         <v-list-tile
           v-for="(skill, index) in skills"
@@ -23,25 +23,25 @@ export default {
   data: () => ({
     skills: [
       {
-        header: 'large custom CMS frontend, in multiple versions'
+        header: 'a large custom CMS frontend, in multiple versions'
       },
       {
         header: 'brochure sites'
       },
       {
-        header: 'Find A Location Near You widget'
+        header: 'a Find A Location Near You widget'
       },
       {
-        header: 'customer invoicing widget'
+        header: 'a customer invoicing widget'
       },
       {
-        header: 'accessibility (AODA) layer for a brochure site'
+        header: 'an accessibility (AODA) layer for a brochure site'
       },
       {
-        header: 'custom user interaction logger'
+        header: 'a custom user interaction logger'
       },
       {
-        header: 'internationalization layer in an Angular app'
+        header: 'an internationalization layer in an Angular app'
       }
     ]
   })

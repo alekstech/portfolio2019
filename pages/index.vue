@@ -1,7 +1,6 @@
 <template>
   <div>
     <jumbotron />
-    <skills />
   </div>
 </template>
 
