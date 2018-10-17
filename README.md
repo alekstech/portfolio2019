@@ -1,22 +1,18 @@
-# alekstech
+# nuxt2
 
-> Aleks Sobieraj portfolio
-
-## Build Setup
+CLI scripts
 
 ``` bash
-# install dependencies
-$ npm install # Or yarn install
 
-# serve with hot reload at localhost:3000
+$ npm install
+
 $ npm run dev
 
-# build for production and launch server
+# lint, process and bundle source code
 $ npm run build
+# serve bundled source from a local socket; on source change, recompile and reload (HMR)
 $ npm start
 
-# generate static project
+# compile for production
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.

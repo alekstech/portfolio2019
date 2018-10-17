@@ -1,40 +1,35 @@
 {
   "name": "alekstech",
   "version": "1.0.0",
-  "description": "Aleks Sobieraj portfolio",
-  "author": "Aleks <contact@aleks.tech>",
+  "description": "My posh Nuxt.js project",
+  "author": "Aleks Sobieraj",
   "private": true,
-  "config": {
-    "nuxt": {
-      "host": "0.0.0.0",
-      "port": "3000"
-    }
-  },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext --fix .js,.vue --ignore-path .gitignore .",
+    "prettify": "prettier --config ./.prettierrc --ignore-path ./.gitignore",
+    "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0",
-    "vuetify": "^1.0.0"
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "express": "^4.16.3",
+    "vuetify": "^1.2.4",
+    "@nuxtjs/axios": "^5.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "babel-plugin-transform-imports": "^1.4.1",
-    "css-loader": "^1.0.0",
-    "eslint": "^4.3.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "style-loader": "^0.23.1",
+    "nodemon": "^1.11.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.14.3",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "vue-svg-loader": "^0.5.0"
+    "stylus-loader": "^3.0.2"
   }
 }

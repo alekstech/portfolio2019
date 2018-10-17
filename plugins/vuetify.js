@@ -59,31 +59,9 @@
 import Vue from 'vue'
 import colors from 'vuetify/es5/util/colors'
 
-import {
-  Vuetify,
-  VApp,
-  VBtn,
-  VCard,
-  VGrid,
-  VIcon,
-  VNavigationDrawer,
-  VList,
-  VSubheader,
-  VToolbar
-} from 'vuetify'
+import Vuetify from 'vuetify'
 
 Vue.use(Vuetify, {
-  components: {
-    VApp,
-    VBtn,
-    VCard,
-    VGrid,
-    VIcon,
-    VNavigationDrawer,
-    VList,
-    VSubheader,
-    VToolbar
-  },
   theme: {
     primary: colors.teal.base,
     secondary: colors.teal.darken2,
