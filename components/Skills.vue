@@ -10,7 +10,7 @@
         :key="index"
       >
         <v-list-tile-content>
-          <v-list-tile-title>{{skill.header}}</v-list-tile-title>
+          <v-list-tile-title>{{ skill.header }}</v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
@@ -24,7 +24,7 @@
         :key="index"
       >
         <v-list-tile-content>
-          <v-list-tile-title>{{experience.text}}</v-list-tile-title>
+          <v-list-tile-title>{{ experience.text }}</v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
@@ -63,11 +63,11 @@ export default {
       {
         header: 'learn and develop new skills'
       }
-
     ],
     team: [
       {
-        text: 'co-developed two backend developers who developed and mainained PHP APIs for a custom CMS'
+        text:
+          'co-developed two backend developers who developed and mainained PHP APIs for a custom CMS'
       },
       {
         text: 'followed direction of two internal customer representatives'
@@ -92,5 +92,5 @@ export default {
       }
     ]
   })
-}
+};
 </script>

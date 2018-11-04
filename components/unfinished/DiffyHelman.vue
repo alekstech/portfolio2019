@@ -34,13 +34,12 @@ export default {
     helman: 10
   }),
   methods: {
-    product (a, b) {
-      return a * b
+    product(a, b) {
+      return a * b;
     }
   }
-}
+};
 </script>
 
 <style scoped>
-
 </style>

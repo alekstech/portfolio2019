@@ -1,19 +1,19 @@
 <template>
   <v-container>
 
-      <v-list>
-        <v-subheader>
-          I have built
-        </v-subheader>
-        <v-list-tile
-          v-for="(skill, index) in skills"
-          :key="index"
-        >
-          <v-list-tile-content>
-            <v-list-tile-title>{{skill.header}}</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
+    <v-list>
+      <v-subheader>
+        I have built
+      </v-subheader>
+      <v-list-tile
+        v-for="(skill, index) in skills"
+        :key="index"
+      >
+        <v-list-tile-content>
+          <v-list-tile-title>{{ skill.header }}</v-list-tile-title>
+        </v-list-tile-content>
+      </v-list-tile>
+    </v-list>
 
   </v-container>
 </template>
@@ -45,5 +45,5 @@ export default {
       }
     ]
   })
-}
+};
 </script>

@@ -56,10 +56,10 @@
 // VTooltip
 // Transitions
 
-import Vue from 'vue'
-import colors from 'vuetify/es5/util/colors'
+import Vue from 'vue';
+import colors from 'vuetify/es5/util/colors';
 
-import Vuetify from 'vuetify'
+import Vuetify from 'vuetify';
 
 Vue.use(Vuetify, {
   theme: {
@@ -71,4 +71,4 @@ Vue.use(Vuetify, {
     info: colors.blueGrey.darken2,
     success: colors.green.darken1
   }
-})
+});

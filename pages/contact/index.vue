@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Contact from '~/components/Contact'
+import Contact from '~/components/Contact';
 
 export default {
   components: {
-    'contact': Contact
+    contact: Contact
   }
-}
+};
 </script>

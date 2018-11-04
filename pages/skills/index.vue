@@ -2,11 +2,10 @@
   <skills />
 </template>
 <script>
-import Skills from '~/components/Skills'
+import Skills from '~/components/Skills';
 export default {
   components: {
-    'skills': Skills
+    skills: Skills
   }
-}
+};
 </script>
-
