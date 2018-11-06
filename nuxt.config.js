@@ -69,11 +69,6 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
-      config.module.rules.push({
-        test: /\.svg$/,
-        loader: 'vue-svg-loader',
-        exclude: /(node_modules)/
-      });
     }
   }
 };

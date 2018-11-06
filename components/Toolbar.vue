@@ -11,11 +11,14 @@
       "
     >
       <div class="home-button">
-        <a-logo class="logo" />
+        <img 
+          class="logo"
+          src="~/assets/images/ClosedEnvelopeIcon.svg" 
+          alt="Envelope email symbol">
       </div>
     </v-btn>
 
-    <v-spacer></v-spacer>
+    <v-spacer/>
     <v-toolbar-items>
       <v-btn 
         flat
@@ -67,27 +70,28 @@
 
 
 <script>
-import ALogo from '~/assets/images/ALogo.svg'
 export default {
   name: 'Toolbar',
-  components: {
-    'a-logo': ALogo
-  },
   computed: {
-    breakpoint () {
-      return this.$vuetify.breakpoint.name
+    breakpoint() {
+      return this.$vuetify.breakpoint.name;
     },
-    toolbarHeight () {
+    toolbarHeight() {
       switch (this.$vuetify.breakpoint.name) {
-        case 'xs': return 'h-56px'
-        case 'sm': return 'h-48px'
-        case 'md': return 'h-64px'
-        case 'lg': return 'h-64px'
-        case 'xl': return 'h-64px'
+        case 'xs':
+          return 'h-56px';
+        case 'sm':
+          return 'h-48px';
+        case 'md':
+          return 'h-64px';
+        case 'lg':
+          return 'h-64px';
+        case 'xl':
+          return 'h-64px';
       }
     }
   }
-}
+};
 </script>
 
 <style scoped>
