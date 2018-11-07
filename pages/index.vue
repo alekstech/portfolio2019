@@ -20,7 +20,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .font-style-italic {
   font-style: italic;
 }
@@ -38,26 +38,5 @@
 }
 .font-weight-bold {
   font-weight: 700;
-}
-
-.display-flex {
-  display: flex;
-}
-.flex-direction-column {
-  flex-direction: column;
-}
-.justify-content-center {
-  justify-content: center;
-}
-.align-items-center {
-  align-items: center;
-}
-
-.display-block {
-  display: block;
-}
-
-.font-family-serif {
-  font-family: 'Times New Roman', Times, serif;
 }
 </style>
