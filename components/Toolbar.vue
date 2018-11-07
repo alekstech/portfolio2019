@@ -19,7 +19,7 @@
 
     <v-spacer/>
     <v-toolbar-items
-      v-show="$vuetify.breakpoint.smAndDown"
+      v-if="$vuetify.breakpoint.smAndDown"
     >
       <v-btn 
         flat
@@ -35,7 +35,7 @@
       </v-btn>
     </v-toolbar-items>
     <v-toolbar-items
-      class="hidden-sm-and-down"
+      v-else
     >
       <v-btn 
         flat

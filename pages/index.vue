@@ -1,5 +1,6 @@
 <template>
   <div
+    style="margin:auto;"
     class="width-100 display-flex flex-direction-column justify-content-center align-items-center"
   >
     <p 
