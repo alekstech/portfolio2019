@@ -1,9 +1,22 @@
 <template>
-  <div>
-    <h1 aria-label="cheshch footnote one">Czesc*</h1>
-    <p>My name is Aleks</p>
-    <p>I'm a web developer</p>
-    <p aria-label="legend">* POL noun /'cheshch/ hello</p>
+  <div
+    class="width-100 display-flex flex-direction-column justify-content-center align-items-center"
+  >
+    <p 
+      class="headline"
+      aria-label="cheshch footnote one">
+      Czesc <sup><small>*</small></sup>
+    </p>
+    <p class="title">My name is Aleks</p>
+    <p class="title">I'm a web developer</p>
+    <p 
+      class="font-family-serif"
+      aria-label="legend"
+    >
+      <small>
+        <sup>*</sup> POL noun /'cheshch/ hello
+      </small>
+    </p>
   </div>
 </template>
 
@@ -25,5 +38,26 @@
 }
 .font-weight-bold {
   font-weight: 700;
+}
+
+.display-flex {
+  display: flex;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.display-block {
+  display: block;
+}
+
+.font-family-serif {
+  font-family: 'Times New Roman', Times, serif;
 }
 </style>

@@ -6,20 +6,37 @@
       to="/"
       nuxt
       icon
+      large
       class="
         teal--text
       "
     >
-      <div class="home-button">
-        <img 
-          class="logo"
-          src="~/assets/images/ClosedEnvelopeIcon.svg" 
-          alt="Envelope email symbol">
-      </div>
+      <img 
+        class="max-width-100"
+        src="~/assets/images/ALogo.svg" 
+        alt="Stylized letter A">
     </v-btn>
 
     <v-spacer/>
-    <v-toolbar-items>
+    <v-toolbar-items
+      v-show="$vuetify.breakpoint.smAndDown"
+    >
+      <v-btn 
+        flat
+        icon
+        class="
+          teal--text 
+        "
+        @click.stop.prevent="toggleSidebar(true)"
+      >
+        <v-icon>
+          menu
+        </v-icon>
+      </v-btn>
+    </v-toolbar-items>
+    <v-toolbar-items
+      class="hidden-sm-and-down"
+    >
       <v-btn 
         flat
         to="/portfolio"
@@ -70,26 +87,14 @@
 
 
 <script>
+import { mapMutations } from 'vuex';
+
 export default {
   name: 'Toolbar',
-  computed: {
-    breakpoint() {
-      return this.$vuetify.breakpoint.name;
-    },
-    toolbarHeight() {
-      switch (this.$vuetify.breakpoint.name) {
-        case 'xs':
-          return 'h-56px';
-        case 'sm':
-          return 'h-48px';
-        case 'md':
-          return 'h-64px';
-        case 'lg':
-          return 'h-64px';
-        case 'xl':
-          return 'h-64px';
-      }
-    }
+  methods: {
+    ...mapMutations({
+      toggleSidebar: 'toggleSidebar'
+    })
   }
 };
 </script>
@@ -117,7 +122,7 @@ export default {
   height: 100%;
 }
 
-.logo {
-  max-height: 100%;
+.max-width-100 {
+  max-width: 100%;
 }
 </style>
