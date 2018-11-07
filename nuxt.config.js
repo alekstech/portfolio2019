@@ -3,6 +3,14 @@ const pkg = require('./package');
 module.exports = {
   mode: 'universal',
 
+  render: {
+    bundleRenderer: {
+      shouldPrefetch: (file, type) => {
+        return true;
+      }
+    }
+  },
+
   /*
   ** Headers of the page
   */
