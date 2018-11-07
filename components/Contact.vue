@@ -1,51 +1,48 @@
 <template>
-  <v-container
+  <v-layout
     fill-height
-    justify-space-around
-    reverse>
-    <v-flex 
-      d-inline-flex 
-      xs3
-      class="tech-logo">    
-      <v-btn
-        icon
-        href="https://github.com/blurges"
-        target="_blank"
-      >
-        <img 
-          src="~/assets/images/GithubLogo.svg" 
-          alt="LinkedIn Logo">
-      </v-btn>
-    </v-flex>
-    <v-flex 
-      d-inline-flex 
-      xs3
-      class="tech-logo">
-      <v-btn
-        icon
+    wrap
+  >
+    <v-flex
+      d-flex 
+      align-center
+      xs4
+      offset-xs4
+      sm2
+      offset-sm4
+      lg1
+      offset-lg4
+    >
+      <a
+        class="display-block"
         href="https://www.linkedin.com/in/aleksander-sobieraj"
         target="_blank"
       >
         <img 
           src="~/assets/images/LinkedInLogo.svg" 
           alt="LinkedIn Logo">
-      </v-btn>
+      </a>
     </v-flex>
-    <v-flex 
-      d-inline-flex 
-      xs3
-      class="tech-logo"
+    <v-flex
+      d-flex
+      align-center
+      xs4
+      offset-xs4
+      sm2
+      offset-sm1
+      lg1
+      offset-lg2
     >
-      <v-btn
-        icon
+      <a
+        class="display-block"
         href="mailto:contact@aleks.tech"
       >
         <img 
           src="~/assets/images/ClosedEnvelopeIcon.svg" 
-          alt="Envelope email symbol">
-      </v-btn>
+          alt="Email envelope">
+      </a>
     </v-flex>
-  </v-container>
+  </v-layout>
 </template>
 <script>
 export default {
@@ -54,11 +51,20 @@ export default {
 </script>
 
 <style>
-.tech-logo {
-  padding: 5px;
+.display-flex {
+  display: flex;
 }
-svg {
-  width: 100%;
-  max-width: 100%;
+.flex-direction-column {
+  flex-direction: column;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.display-block {
+  display: block;
 }
 </style>
