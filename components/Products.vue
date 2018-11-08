@@ -10,7 +10,7 @@
         :key="index"
       >
         <v-list-tile-content>
-          <v-list-tile-title>{{ skill.header }}</v-list-tile-title>
+          {{ skill.header }}
         </v-list-tile-content>
       </v-list-tile>
     </v-list>

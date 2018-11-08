@@ -6,7 +6,7 @@
     <p 
       class="headline"
       aria-label="cheshch footnote one">
-      Czesc <sup><small>*</small></sup>
+      Cześć <sup><small>*</small></sup>
     </p>
     <p class="title">My name is Aleks</p>
     <p class="title">I'm a web developer</p>
@@ -15,7 +15,7 @@
       aria-label="legend"
     >
       <small>
-        <sup>*</sup> POL noun /'cheshch/ hello
+        <sup>*</sup> /'cheshch/ Polish; noun, interjection: hello
       </small>
     </p>
   </div>

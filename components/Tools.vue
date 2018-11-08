@@ -9,7 +9,7 @@
         :key="index"
       >
         <v-list-tile-content>
-          <v-list-tile-title>{{ tool.name }}</v-list-tile-title>
+          {{ tool.name }}
         </v-list-tile-content>
       </v-list-tile>
     </v-list>
