@@ -21,6 +21,7 @@
     "@nuxtjs/axios": "^5.0.0"
   },
   "devDependencies": {
+    "autoprefixer": "^9.3.1",
     "babel-eslint": "^8.2.1",
     "css-loader": "^1.0.0",
     "eslint": "^5.0.1",
@@ -28,10 +29,12 @@
     "eslint-loader": "^2.0.0",
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "^4.0.0",
+    "glob-all": "^3.1.0",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^3.0.2",
+    "tailwindcss": "^0.7.2"
   }
 }

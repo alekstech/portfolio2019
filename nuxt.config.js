@@ -1,4 +1,12 @@
+const path = require('path');
+const glob = require('glob-all');
 const pkg = require('./package');
+
+class TailwindExtractor {
+  static extract(content) {
+    return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
+  }
+}
 
 module.exports = {
   mode: 'universal',
@@ -39,7 +47,11 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/style/utility-classes.css', '~/assets/style/app.styl'],
+  css: [
+    '~/assets/style/utility-classes.css',
+    '~/assets/style/app.styl',
+    '~/assets/style/main.css'
+  ],
 
   /*
   ** Plugins to load before mounting the App
@@ -76,6 +88,27 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         });
+      }
+      /*
+      ** Cleanup CSS with PurgeCSS
+      */
+      if (!ctx.isDev) {
+        config.plugins.push(
+          new PurgecssPlugin({
+            paths: glob.sync([
+              path.join(__dirname, './pages/**/*.vue'),
+              path.join(__dirname, './layouts/**/*.vue'),
+              path.join(__dirname, './components/**/*.vue')
+            ]),
+            extractors: [
+              {
+                extractor: TailwindExtractor,
+                extensions: ['vue']
+              }
+            ],
+            whitelist: ['html', 'body', 'nuxt-progress']
+          })
+        );
       }
     }
   }
