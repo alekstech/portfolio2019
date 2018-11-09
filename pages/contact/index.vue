@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full flex flex-col justify-center items-center py-8 bg-orange-lightest">
+  <div class="min-h-full flex flex-col lg:flex-row justify-center items-center py-8 lg:py-12 px-4 lg:px-8 bg-orange-lightest">
     <contact />
   </div>
 </template>

@@ -33,13 +33,13 @@ export default {
         name: 'Nuxt'
       },
       {
-        name: 'Bulma, Bootstrap, Metronic'
+        name: 'TailwindCSS, Bulma, Bootstrap, Metronic'
       },
       {
         name: 'Google Maps'
       },
       {
-        name: 'Google Charts. Charts.js'
+        name: 'Google Charts, Charts.js'
       },
       {
         name: 'fetch, axios, $.ajax'

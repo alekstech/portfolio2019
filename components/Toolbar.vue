@@ -9,8 +9,9 @@
       @click.stop>
       <div class="h-full flex items-center flex-no-shrink text-white mr-6">
         <nuxt-link 
-          to="/" 
-          class="h-full flex items-center lg:mt-0 text-black hover:pink-dark px-2 ">
+          ref="home" 
+          to="/"
+          class="block h-full flex border rounded border-teal-lighter items-center lg:mt-0 text-black hover:text-yellow-lightest px-2 focus:border-pink-dark focus:outline-none">
           <img 
             class="fill-currenth-8 w-8"
             src="~/assets/images/ALogo.svg" 
@@ -20,7 +21,7 @@
       <div 
         class="block lg:hidden">
         <button 
-          class="flex items-center px-3 py-2 border rounded text-black border-teal-light hover:text-white hover:border-white focus:border-pink-dark focus:outline-none" 
+          class="flex items-center px-3 py-2 text-black border rounded border-teal-light hover:text-yellow-lightest hover:border-yellow-lightest focus:border-pink-dark focus:outline-none" 
           @click="toggleNavbar()">
           <svg 
             class="fill-current h-3 w-3" 
@@ -59,23 +60,23 @@
           class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex flex-col items-center px-2">
           <nuxt-link 
             to="/portfolio"
-            class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
-            Projects
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            projects
           </nuxt-link>
           <nuxt-link 
             to="/skills" 
-            class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
-            Skills
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            skills
           </nuxt-link>
           <nuxt-link 
             to="/tech" 
-            class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
-            Tech
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            tech
           </nuxt-link>
           <nuxt-link 
             to="/contact" 
-            class="no-underline block mt-4 py-4 lg:py-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark">
-            Contact
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            contact
           </nuxt-link>
         </div>
       </transition>

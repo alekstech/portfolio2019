@@ -21,28 +21,28 @@ export default {
         header: 'develop UX flows based on custom APIs'
       },
       {
-        header: 'plan routes from UX flow diagrams'
+        header: 'plan routes, state and components from UX flow diagrams'
       },
       {
-        header: 'style based on design specs'
+        header: 'style to design specs'
       },
       {
         header: 'write consistent, documented code'
       },
       {
-        header: 'keep track of issues'
+        header: 'keep track of multiple issues and communication channels'
       },
       {
         header: 'update staging, production builds'
       },
       {
-        header: 'share status updates with team, manager'
+        header: 'keep stakeholders informed and flag roadblocks'
       },
       {
         header: 'independently work to goals'
       },
       {
-        header: 'learn and develop new skills'
+        header: 'learn and acquire new skills'
       }
     ]
   })

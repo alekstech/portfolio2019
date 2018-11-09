@@ -27,7 +27,7 @@ export default {
         description: 'a Find A Location Near You widget'
       },
       {
-        description: 'a customer invoicing widget'
+        description: 'an ordering widget'
       },
       {
         description: 'an accessibility (AODA) layer for a brochure site'
@@ -36,7 +36,7 @@ export default {
         description: 'a custom user interaction logger'
       },
       {
-        description: 'an internationalization layer in an Angular app'
+        description: 'internationalization layers'
       }
     ]
   })

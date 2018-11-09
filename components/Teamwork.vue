@@ -25,7 +25,7 @@ export default {
         text: 'followed direction of two internal customer representatives'
       },
       {
-        text: 'tiaged and fixed issues from two QA specialists'
+        text: 'triaged and fixed issues from two QA specialists'
       },
       {
         text: 'worked with one external enterprise customer team'
@@ -37,7 +37,7 @@ export default {
         text: 'cooperated with two peer and junior team mates'
       },
       {
-        text: 'attended several hackathon team mates'
+        text: 'belonged to several hackathon teams'
       },
       {
         text: 'followed guidance of a volunteer project mentor'

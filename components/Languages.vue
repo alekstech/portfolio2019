@@ -27,9 +27,6 @@ export default {
         name: 'JavaScript'
       },
       {
-        name: 'basic Typescript'
-      },
-      {
         name: 'basic SQL'
       },
       {

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full flex flex-col items-center py-2 lg:py-4 bg-green-lightest">
+  <div class="min-h-full flex flex-col items-center py-8 lg:py-12 px-4 lg:px-8 bg-green-lightest">
     <div>
       <languages />
       <div class="pt-8 lg:pt-12 w-full"/>

@@ -24,13 +24,16 @@ export default {
         name: 'npm'
       },
       {
-        name: 'node'
+        name: 'Node.js'
       },
       {
         name: 'Postman'
       },
       {
-        name: 'Google Suite'
+        name: 'Sketch'
+      },
+      {
+        name: 'G Suite'
       },
       {
         name: 'Trello, JIRA'

@@ -17,5 +17,12 @@
         <span>hello </span>
       </small>
     </p>
+    <nuxt-link
+      to="/portfolio"
+      tag="button"
+      class="bg-transparent hover:bg-teal-lighter text-xs text-black font-lighter hover:text-yellow-lightest mt-8 py-2 px-8 border border-teal-lighter hover:border-transparent rounded focus:border-pink-dark focus:outline-none"
+    >
+      projects
+    </nuxt-link>
   </div>
 </template>
