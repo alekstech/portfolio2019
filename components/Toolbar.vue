@@ -1,14 +1,14 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap bg-teal-lighter h-16 fixed pin-t pin-x z-10 py-2 px-4">
     <div class="h-full flex items-center flex-no-shrink text-white mr-6">
-      <a 
-        href="/" 
+      <nuxt-link 
+        to="/" 
         class="h-full flex items-center lg:mt-0 text-black hover:pink-dark px-2 ">
         <img 
           class="fill-currenth-8 w-8"
           src="~/assets/images/ALogo.svg" 
           alt="A" >
-      </a>
+      </nuxt-link>
     </div>
     <div 
       class="block lg:hidden">
@@ -22,51 +22,51 @@
       </button>
     </div>
     <div class="hidden lg:block">
-      <a 
-        href="/portfolio" 
+      <nuxt-link 
+        to="/portfolio" 
         class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
         Projects
-      </a>
-      <a 
-        href="/skills" 
+      </nuxt-link>
+      <nuxt-link 
+        to="/skills" 
         class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
         Skills
-      </a>
-      <a 
-        href="/tech" 
+      </nuxt-link>
+      <nuxt-link 
+        to="/tech" 
         class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
         Tech
-      </a>
-      <a 
-        href="/contact" 
+      </nuxt-link>
+      <nuxt-link 
+        to="/contact" 
         class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark">
         Contact
-      </a>
+      </nuxt-link>
     </div>
     <div 
       v-show="open" 
       class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex justify-end pr-2">
       <div>
-        <a 
-          href="/portfolio" 
+        <nuxt-link 
+          to="/portfolio" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
           Projects
-        </a>
-        <a 
-          href="/skills" 
+        </nuxt-link>
+        <nuxt-link 
+          to="/skills" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
           Skills
-        </a>
-        <a 
-          href="/tech" 
+        </nuxt-link>
+        <nuxt-link 
+          to="/tech" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
           Tech
-        </a>
-        <a 
-          href="/contact" 
+        </nuxt-link>
+        <nuxt-link 
+          to="/contact" 
           class="no-underline block mt-4 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark">
           Contact
-        </a>
+        </nuxt-link>
       </div>
     </div>
   </nav>
