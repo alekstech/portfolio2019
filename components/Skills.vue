@@ -1,21 +1,13 @@
 <template>
-  <div>
-    <p>things I can do</p>
-    <ul>
+  <div class="px-2">
+    <p class="text-sm font-semibold tracking-wide">things I can do</p>
+    <ul class="list-reset mt-4 pl-1 ">
       <li
         v-for="(skill, index) in skills"
         :key="index"
+        class="mt-2 pb-1 border-b border-grey"
       >
         {{ skill.header }}
-      </li>
-    </ul>
-    <p>team work experience</p>
-    <ul>
-      <li
-        v-for="(experience, index) in team"
-        :key="index"
-      >
-        {{ experience.text }}
       </li>
     </ul>
   </div>
@@ -51,33 +43,6 @@ export default {
       },
       {
         header: 'learn and develop new skills'
-      }
-    ],
-    team: [
-      {
-        text:
-          'co-developed two backend developers who developed and mainained PHP APIs for a custom CMS'
-      },
-      {
-        text: 'followed direction of two internal customer representatives'
-      },
-      {
-        text: 'tiaged and fixed issues from two QA specialists'
-      },
-      {
-        text: 'worked with one external enterprise customer team'
-      },
-      {
-        text: 'reported to one manager'
-      },
-      {
-        text: 'cooperated with two peer and junior team mates'
-      },
-      {
-        text: 'attended several hackathon team mates'
-      },
-      {
-        text: 'followed guidance of a volunteer project mentor'
       }
     ]
   })

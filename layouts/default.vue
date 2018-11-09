@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-screen pt-16 relative">
+  <div class="container min-h-screen h-screen pt-16 relative">
     <toolbar />
     <nuxt />
   </div>

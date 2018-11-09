@@ -1,12 +1,13 @@
 <template>
-  <div>
-    <p>I have built</p>
-    <ul>
+  <div class="px-2">
+    <p class="text-sm font-semibold tracking-wide">I have built</p>
+    <ul class="list-reset mt-4 pl-1 ">
       <li
-        v-for="(skill, index) in skills"
+        v-for="(product, index) in products"
         :key="index"
+        class="mt-2 pb-1 border-b border-grey"
       >
-        {{ skill.header }}
+        {{ product.description }}
       </li>
     </ul>
   </div>
@@ -15,27 +16,27 @@
 <script>
 export default {
   data: () => ({
-    skills: [
+    products: [
       {
-        header: 'a large custom CMS frontend, in multiple versions'
+        description: 'a large custom CMS frontend, in multiple versions'
       },
       {
-        header: 'brochure sites'
+        description: 'brochure sites'
       },
       {
-        header: 'a Find A Location Near You widget'
+        description: 'a Find A Location Near You widget'
       },
       {
-        header: 'a customer invoicing widget'
+        description: 'a customer invoicing widget'
       },
       {
-        header: 'an accessibility (AODA) layer for a brochure site'
+        description: 'an accessibility (AODA) layer for a brochure site'
       },
       {
-        header: 'a custom user interaction logger'
+        description: 'a custom user interaction logger'
       },
       {
-        header: 'an internationalization layer in an Angular app'
+        description: 'an internationalization layer in an Angular app'
       }
     ]
   })
