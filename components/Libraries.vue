@@ -1,18 +1,15 @@
 <template>
-  <div class="width-100">
-    <v-list>
-      <v-subheader>
-        libraries
-      </v-subheader>
-      <v-list-tile
+  <div>
+    <p>libraries</p>
+    <ul>
+      <li
         v-for="(library, index) in libraries"
         :key="index"
       >
-        <v-list-tile-content>
-          {{ library.name }}
-        </v-list-tile-content>
-      </v-list-tile>
-    </v-list>
+        {{ library.name }}
+      </li>
+    </ul>
+
   </div>
 </template>
 

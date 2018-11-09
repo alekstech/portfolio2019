@@ -1,15 +1,13 @@
 <template>
-  <div class="width-100">
-    <products />
-  </div>
+  <blog />
 </template>
 
 <script>
-import Products from '~/components/Products';
+import Blog from '~/components/Blog';
 
 export default {
   components: {
-    products: Products
+    products: Blog
   }
 };
 </script>

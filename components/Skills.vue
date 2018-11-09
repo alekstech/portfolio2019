@@ -1,35 +1,24 @@
 <template>
-  <v-container>
-
-    <v-list>
-      <v-subheader>
-        things I can do
-      </v-subheader>
-      <v-list-tile
+  <div>
+    <p>things I can do</p>
+    <ul>
+      <li
         v-for="(skill, index) in skills"
         :key="index"
       >
-        <v-list-tile-content>
-          {{ skill.header }}
-        </v-list-tile-content>
-      </v-list-tile>
-    </v-list>
-
-    <v-list>
-      <v-subheader>
-        team work experience
-      </v-subheader>
-      <v-list-tile
+        {{ skill.header }}
+      </li>
+    </ul>
+    <p>team work experience</p>
+    <ul>
+      <li
         v-for="(experience, index) in team"
         :key="index"
       >
-        <v-list-tile-content>
-          {{ experience.text }}
-        </v-list-tile-content>
-      </v-list-tile>
-    </v-list>
-
-  </v-container>
+        {{ experience.text }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>

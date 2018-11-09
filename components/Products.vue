@@ -1,21 +1,15 @@
 <template>
-  <v-container>
-
-    <v-list>
-      <v-subheader>
-        I have built
-      </v-subheader>
-      <v-list-tile
+  <div>
+    <p>I have built</p>
+    <ul>
+      <li
         v-for="(skill, index) in skills"
         :key="index"
       >
-        <v-list-tile-content>
-          {{ skill.header }}
-        </v-list-tile-content>
-      </v-list-tile>
-    </v-list>
-
-  </v-container>
+        {{ skill.header }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>

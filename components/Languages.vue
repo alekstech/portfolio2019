@@ -1,18 +1,14 @@
 <template>
-  <div class="width-100">
-    <v-list>
-      <v-subheader>
-        languages
-      </v-subheader>
-      <v-list-tile
+  <div>
+    <p>languages</p>
+    <ul>
+      <li
         v-for="(language, index) in languages"
         :key="index"
       >
-        <v-list-tile-content>
-          {{ language.name }}
-        </v-list-tile-content>
-      </v-list-tile>
-    </v-list>
+        {{ language.name }}
+      </li>
+    </ul>
   </div>
 </template>
 
