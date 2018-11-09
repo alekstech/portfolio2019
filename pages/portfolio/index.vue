@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex flex-col items-center py-4 lg:py-8 bg-red-lightest">
+  <div class="min-h-full flex flex-col items-center py-4 lg:py-8 bg-red-lightest">
     <products />
   </div>
 </template>

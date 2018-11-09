@@ -10,7 +10,7 @@
         src="~/assets/images/LinkedInLogo.svg" 
         alt="LinkedIn Logo">
     </a>
-    <div class="h-16 w-16"/>
+    <div class="h-4 lg:h-16 w-4 lg:w-16"/>
     <a
       class="block"
       href="mailto:contact@aleks.tech"
