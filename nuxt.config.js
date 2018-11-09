@@ -1,4 +1,5 @@
 const path = require('path');
+const PurgecssPlugin = require('purgecss-webpack-plugin');
 const glob = require('glob-all');
 const pkg = require('./package');
 
@@ -61,6 +62,8 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
+  extractCSS: true,
+
   /*
   ** Build configuration
   */
@@ -77,6 +80,26 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         });
+      }
+      if (!ctx.isDev) {
+        config.plugins.push(
+          new PurgecssPlugin({
+            // purgecss configuration
+            // https://github.com/FullHuman/purgecss
+            paths: glob.sync([
+              path.join(__dirname, './pages/**/*.vue'),
+              path.join(__dirname, './layouts/**/*.vue'),
+              path.join(__dirname, './components/**/*.vue')
+            ]),
+            extractors: [
+              {
+                extractor: TailwindExtractor,
+                extensions: ['vue']
+              }
+            ],
+            whitelist: ['html', 'body', 'nuxt-progress']
+          })
+        );
       }
     }
   }
