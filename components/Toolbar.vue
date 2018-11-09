@@ -50,30 +50,35 @@
           Contact
         </nuxt-link>
       </div>
-      <div 
-        v-show="open" 
-        class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex flex-col items-center px-2">
-        <nuxt-link 
-          to="/portfolio"
-          class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
-          Projects
-        </nuxt-link>
-        <nuxt-link 
-          to="/skills" 
-          class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
-          Skills
-        </nuxt-link>
-        <nuxt-link 
-          to="/tech" 
-          class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
-          Tech
-        </nuxt-link>
-        <nuxt-link 
-          to="/contact" 
-          class="no-underline block mt-4 py-4 lg:py-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark">
-          Contact
-        </nuxt-link>
-      </div>
+      <transition
+        name="fade"
+        mode="out-in"
+      >
+        <div 
+          v-show="open" 
+          class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex flex-col items-center px-2">
+          <nuxt-link 
+            to="/portfolio"
+            class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
+            Projects
+          </nuxt-link>
+          <nuxt-link 
+            to="/skills" 
+            class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
+            Skills
+          </nuxt-link>
+          <nuxt-link 
+            to="/tech" 
+            class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
+            Tech
+          </nuxt-link>
+          <nuxt-link 
+            to="/contact" 
+            class="no-underline block mt-4 py-4 lg:py-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark">
+            Contact
+          </nuxt-link>
+        </div>
+      </transition>
     </nav>
   </div>
 </template>

@@ -1,7 +1,12 @@
 <template>
   <div class="container min-h-screen h-screen pt-16 relative">
     <toolbar />
-    <nuxt />
+    <transition
+      name="fade"
+      mode="out-in"
+    >
+      <nuxt />
+    </transition>
   </div>
 </template>
 
