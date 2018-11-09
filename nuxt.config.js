@@ -78,27 +78,6 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
-      /*
-      ** Cleanup CSS with PurgeCSS
-      */
-      if (!ctx.isDev) {
-        config.plugins.push(
-          new PurgecssPlugin({
-            paths: glob.sync([
-              path.join(__dirname, './pages/**/*.vue'),
-              path.join(__dirname, './layouts/**/*.vue'),
-              path.join(__dirname, './components/**/*.vue')
-            ]),
-            extractors: [
-              {
-                extractor: TailwindExtractor,
-                extensions: ['vue']
-              }
-            ],
-            whitelist: ['html', 'body', 'nuxt-progress']
-          })
-        );
-      }
     }
   }
 };

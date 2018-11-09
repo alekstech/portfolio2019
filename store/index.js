@@ -3,7 +3,11 @@ export const state = () => ({
 });
 
 export const mutations = {
-  toggleSidebar(state) {
+  toggleNavbar(state) {
     state.sidebar = !state.sidebar;
+  },
+  closeNavbar(state) {
+    console.log('closeNavbar');
+    state.sidebar = false;
   }
 };

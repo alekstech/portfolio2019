@@ -14,7 +14,7 @@
       class="block lg:hidden">
       <button 
         class="flex items-center px-3 py-2 border rounded text-black border-teal-light hover:text-white hover:border-white focus:border-pink-dark focus:outline-none" 
-        @click="toggleSidebar()">
+        @click="toggleNavbar()">
         <svg 
           class="fill-current h-3 w-3" 
           viewBox="0 0 20 20" 
@@ -45,29 +45,27 @@
     </div>
     <div 
       v-show="open" 
-      class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex justify-end pr-2">
-      <div>
-        <nuxt-link 
-          to="/portfolio" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
-          Projects
-        </nuxt-link>
-        <nuxt-link 
-          to="/skills" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
-          Skills
-        </nuxt-link>
-        <nuxt-link 
-          to="/tech" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
-          Tech
-        </nuxt-link>
-        <nuxt-link 
-          to="/contact" 
-          class="no-underline block mt-4 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark">
-          Contact
-        </nuxt-link>
-      </div>
+      class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex flex-col items-center px-2">
+      <nuxt-link 
+        to="/portfolio"
+        class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
+        Projects
+      </nuxt-link>
+      <nuxt-link 
+        to="/skills" 
+        class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
+        Skills
+      </nuxt-link>
+      <nuxt-link 
+        to="/tech" 
+        class="no-underline block mt-4 py-4 lg:py-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4">
+        Tech
+      </nuxt-link>
+      <nuxt-link 
+        to="/contact" 
+        class="no-underline block mt-4 py-4 lg:py-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark">
+        Contact
+      </nuxt-link>
     </div>
   </nav>
 </template>
@@ -84,9 +82,15 @@ export default {
       open: state => state.sidebar
     })
   },
+  watch: {
+    '$route.path': function() {
+      this.closeNavbar();
+    }
+  },
   methods: {
     ...mapMutations({
-      toggleSidebar: 'toggleSidebar'
+      toggleNavbar: 'toggleNavbar',
+      closeNavbar: 'closeNavbar'
     })
   }
 };
