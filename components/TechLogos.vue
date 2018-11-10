@@ -22,23 +22,16 @@
 </template>
 <script>
 import VueLogo from '~/assets/images/VueLogo.svg';
-import GitLogo from '~/assets/images/GitLogo.svg';
-import JSLogo from '~/assets/images/JSLogo.svg';
-import CSSLogo from '~/assets/images/CSSLogo.svg';
 import WebpackLogo from '~/assets/images/WebpackLogo.svg';
 import NuxtLogo from '~/assets/images/NuxtLogo.svg';
 import ElementUILogo from '~/assets/images/ElementUILogo.svg';
 import VuetifyLogo from '~/assets/images/VuetifyLogo.svg';
 import AccessibilityLogo from '~/assets/images/AccessibilityLogo.svg';
 import MongoDBLogo from '~/assets/images/MongoDBLogo.svg';
-import NodeJSLogo from '~/assets/images/NodeJSLogo.svg';
-import PostgreSQLLogo from '~/assets/images/PostgreSQLLogo.svg';
 import ReduxLogo from '~/assets/images/ReduxLogo.svg';
 import SequelizeLogo from '~/assets/images/SequelizeLogo.svg';
 import BitbucketLogo from '~/assets/images/BitbucketLogo.svg';
 import SourceTreeLogo from '~/assets/images/SourceTreeLogo.svg';
-import TrelloLogo from '~/assets/images/TrelloLogo.svg';
-import JIRALogo from '~/assets/images/JIRALogo.svg';
 
 export default {
   name: 'Skill',

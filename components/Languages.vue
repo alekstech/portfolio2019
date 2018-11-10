@@ -1,36 +1,48 @@
 <template>
-  <div class="px-2">
-    <p class="text-sm font-semibold tracking-wide">languages</p>
-    <ul class="list-reset mt-4 pl-1 ">
-      <li
-        v-for="(language, index) in languages"
-        :key="index"
-        class="mt-2 pb-1 border-b border-grey"
-      >
-        {{ language.name }}
-      </li>
-    </ul>
-  </div>
+  <list 
+    :list="languages" 
+    header="languages" />
 </template>
 
 <script>
+import List from '~/components/List';
+
+import HTMLLogo from '~/assets/images/HTMLLogo.svg';
+import CSSLogo from '~/assets/images/CSSLogo.svg';
+import JavaScriptLogo from '~/assets/images/JavaScriptLogo.svg';
+import PostgreSQLLogo from '~/assets/images/PostgreSQLLogo.svg';
+import PHPLogo from '~/assets/images/PHPLogo.svg';
+import PythonLogo from '~/assets/images/PythonLogo.svg';
+
 export default {
+  components: {
+    list: List
+  },
   data: () => ({
     languages: [
       {
-        name: 'HTML'
+        name: 'HTML',
+        image: HTMLLogo
       },
       {
-        name: 'CSS (some SASS, some Stylus)'
+        name: 'CSS (some SASS, some Stylus)',
+        image: CSSLogo
       },
       {
-        name: 'JavaScript'
+        name: 'JavaScript',
+        image: JavaScriptLogo
       },
       {
-        name: 'basic SQL'
+        name: 'basic SQL',
+        image: PostgreSQLLogo
       },
       {
-        name: 'passive exposure to PHP and Python'
+        name: 'passive exposure to PHP',
+        image: PHPLogo
+      },
+      {
+        name: 'passive exposure to Python',
+        image: PythonLogo
       }
     ]
   })

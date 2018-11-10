@@ -1,57 +1,98 @@
 <template>
-  <div class="px-2">
-    <p class="text-sm font-semibold tracking-wide">libraries</p>
-    <ul class="list-reset mt-4 pl-1 ">
-      <li
-        v-for="(library, index) in libraries"
-        :key="index"
-        class="mt-2 pb-1 border-b border-grey"
-      >
-        {{ library.name }}
-      </li>
-    </ul>
-  </div>
+  <list 
+    :list="libraries"
+    header="libraries"
+  />
 </template>
 
 <script>
+import List from '~/components/List';
+
+import ExpressLogo from '~/assets/images/ExpressLogo.svg';
+import JQueryLogo from '~/assets/images/JQueryLogo.svg';
+import VueLogo from '~/assets/images/VueLogo.svg';
+import ReactLogo from '~/assets/images/ReactLogo.svg';
+import WebpackLogo from '~/assets/images/WebpackLogo.svg';
+import NuxtLogo from '~/assets/images/NuxtLogo.svg';
+import ElementUILogo from '~/assets/images/ElementUILogo.svg';
+import VuetifyLogo from '~/assets/images/VuetifyLogo.svg';
+import MaterialUILogo from '~/assets/images/MaterialUILogo.svg';
+import AccessibilityLogo from '~/assets/images/AccessibilityLogo.svg';
+import MongoDBLogo from '~/assets/images/MongoDBLogo.svg';
+import ReduxLogo from '~/assets/images/ReduxLogo.svg';
+import SequelizeLogo from '~/assets/images/SequelizeLogo.svg';
+import TailwindCSSLogo from '~/assets/images/TailwindCSSLogo.svg';
+import BulmaLogo from '~/assets/images/BulmaLogo.svg';
+import BootstrapLogo from '~/assets/images/BootstrapLogo.svg';
+import GoogleChartsLogo from '~/assets/images/GoogleChartsLogo.svg';
+import GoogleMapsLogo from '~/assets/images/GoogleMapsLogo.svg';
+import ChartJSLogo from '~/assets/images/ChartJSLogo.svg';
+
 export default {
+  components: {
+    list: List
+  },
   data: () => ({
     libraries: [
       {
-        name: 'Vue, React'
+        name: 'Vue, Vuex, vue-router',
+        image: VueLogo
       },
       {
-        name: 'Vuex, Redux'
+        name: 'React, redux',
+        image: ReactLogo
       },
       {
-        name: 'vue-router'
+        name: 'Vuetify',
+        image: VuetifyLogo
       },
       {
-        name: 'Vuetify, ElementUI, Material-UI'
+        name: 'ElementUI',
+        image: ElementUILogo
       },
       {
-        name: 'Nuxt'
+        name: 'MaterialUI',
+        image: MaterialUILogo
       },
       {
-        name: 'TailwindCSS, Bulma, Bootstrap, Metronic'
+        name: 'Nuxt',
+        image: NuxtLogo
       },
       {
-        name: 'Google Maps'
+        name: 'TailwindCSS',
+        image: TailwindCSSLogo
       },
       {
-        name: 'Google Charts, Charts.js'
+        name: 'Bulma',
+        image: BulmaLogo
       },
       {
-        name: 'fetch, axios, $.ajax'
+        name: 'Bootstrap',
+        image: BootstrapLogo
       },
       {
-        name: 'JQuery'
+        name: 'Google Maps',
+        image: GoogleMapsLogo
       },
       {
-        name: 'Express'
+        name: 'Google Charts',
+        image: GoogleChartsLogo
       },
       {
-        name: 'Sequelize'
+        name: 'Chart.js',
+        image: ChartJSLogo
+      },
+      {
+        name: 'JQuery',
+        image: JQueryLogo
+      },
+      {
+        name: 'Express',
+        image: ExpressLogo
+      },
+      {
+        name: 'Sequelize',
+        image: SequelizeLogo
       }
     ]
   })

@@ -13,7 +13,7 @@
           to="/"
           class="block h-full flex border rounded border-teal-lighter items-center lg:mt-0 text-black hover:text-yellow-lightest px-2 focus:border-pink-dark focus:outline-none">
           <img 
-            class="fill-currenth-8 w-8"
+            class="fill-current h-8 w-8"
             src="~/assets/images/ALogo.svg" 
             alt="A" >
         </nuxt-link>
@@ -33,22 +33,22 @@
         <nuxt-link 
           to="/portfolio" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
-          Projects
+          projects
         </nuxt-link>
         <nuxt-link 
           to="/skills" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
-          Skills
+          skills
         </nuxt-link>
         <nuxt-link 
           to="/tech" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
-          Tech
+          tech
         </nuxt-link>
         <nuxt-link 
           to="/contact" 
           class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark">
-          Contact
+          contact
         </nuxt-link>
       </div>
       <transition

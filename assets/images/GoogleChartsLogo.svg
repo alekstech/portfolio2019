@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 100 100"
+   id="svg5830"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Google__G__Logo.svg"
+   width="100"
+   height="100">
+  <metadata
+     id="metadata5848">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     id="namedview5846"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="-1.4237288"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5830" />
+  <defs
+     id="defs5832">
+    <path
+       id="a"
+       d="m 44.5,20 -20.5,0 0,8.5 11.8,0 C 34.7,33.9 30.1,37 24,37 16.8,37 11,31.2 11,24 c 0,-7.2 5.8,-13 13,-13 3.1,0 5.9,1.1 8.1,2.9 L 38.5,7.5 C 34.6,4.1 29.6,2 24,2 11.8,2 2,11.8 2,24 c 0,12.2 9.8,22 22,22 11,0 21,-8 21,-22 0,-1.3 -0.2,-2.7 -0.5,-4 z"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <clipPath
+     id="b">
+    <use
+       xlink:href="#a"
+       overflow="visible"
+       id="use5836"
+       style="overflow:visible"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </clipPath>
+  <g
+     id="g5850"
+     transform="matrix(2.2727273,0,0,2.2727273,-3.4090915,-4.5454552)">
+    <path
+       id="path5838"
+       d="M 0,37 0,11 17,24 Z"
+       clip-path="url(#b)"
+       inkscape:connector-curvature="0"
+       style="fill:#fbbc05" />
+    <path
+       id="path5840"
+       d="M 0,11 17,24 24,17.9 48,14 48,0 0,0 Z"
+       clip-path="url(#b)"
+       inkscape:connector-curvature="0"
+       style="fill:#ea4335" />
+    <path
+       id="path5842"
+       d="M 0,37 30,14 37.9,15 48,0 48,48 0,48 Z"
+       clip-path="url(#b)"
+       inkscape:connector-curvature="0"
+       style="fill:#34a853" />
+    <path
+       id="path5844"
+       d="M 48,48 17,24 13,21 48,11 Z"
+       clip-path="url(#b)"
+       inkscape:connector-curvature="0"
+       style="fill:#4285f4" />
+  </g>
+</svg>
