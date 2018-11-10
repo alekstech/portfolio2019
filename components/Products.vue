@@ -1,42 +1,48 @@
 <template>
-  <div class="px-2">
-    <p class="text-sm font-semibold tracking-wide">I have built</p>
-    <ul class="list-reset mt-4 pl-1 ">
-      <li
-        v-for="(product, index) in products"
-        :key="index"
-        class="mt-2 pb-1 border-b border-grey"
+  <div>
+    <list 
+      :list="products"
+      header="things I have built"
+    />
+    <div class="flex items-center mt-12">
+      <nuxt-link
+        to="/contact"
+        class="text-sm text-black hover:text-pink-dark p-1 border border-red-lightest rounded focus:border-pink-dark focus:outline-none"
       >
-        {{ product.description }}
-      </li>
-    </ul>
+        Get in touch</nuxt-link>
+      <p class="text-sm text-black font-lighter">to see examples.</p>
+    </div>
   </div>
 </template>
 
 <script>
+import List from '~/components/List';
 export default {
+  components: {
+    list: List
+  },
   data: () => ({
     products: [
       {
-        description: 'a large custom CMS frontend, in multiple versions'
+        name: 'a large custom CMS frontend, in multiple versions'
       },
       {
-        description: 'brochure sites'
+        name: 'brochure sites'
       },
       {
-        description: 'a Find A Location Near You widget'
+        name: 'a Find A Location Near You widget'
       },
       {
-        description: 'an ordering widget'
+        name: 'an ordering widget'
       },
       {
-        description: 'an accessibility (AODA) layer for a brochure site'
+        name: 'an accessibility (AODA) layer for a brochure site'
       },
       {
-        description: 'a custom user interaction logger'
+        name: 'a custom user interaction logger'
       },
       {
-        description: 'internationalization layers'
+        name: 'internationalization layers'
       }
     ]
   })

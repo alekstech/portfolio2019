@@ -32,22 +32,22 @@
       <div class="hidden lg:block">
         <nuxt-link 
           to="/portfolio" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
+          class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           projects
         </nuxt-link>
         <nuxt-link 
           to="/skills" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
+          class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           skills
         </nuxt-link>
         <nuxt-link 
           to="/tech" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark mr-4">
+          class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           tech
         </nuxt-link>
         <nuxt-link 
           to="/contact" 
-          class="no-underline block mt-4 lg:inline-block lg:mt-0 text-black hover:pink-dark">
+          class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
           contact
         </nuxt-link>
       </div>
@@ -60,22 +60,22 @@
           class="lg:hidden absolute pin-t pin-x mt-16 bg-teal-lighter w-full flex flex-col items-center px-2">
           <nuxt-link 
             to="/portfolio"
-            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             projects
           </nuxt-link>
           <nuxt-link 
             to="/skills" 
-            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             skills
           </nuxt-link>
           <nuxt-link 
             to="/tech" 
-            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             tech
           </nuxt-link>
           <nuxt-link 
             to="/contact" 
-            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             contact
           </nuxt-link>
         </div>
