@@ -1,3 +1,3 @@
 <template>
-  <p>blog</p>
+  <nuxt/>
 </template>

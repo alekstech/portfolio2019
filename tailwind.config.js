@@ -93,7 +93,7 @@ let colors = {
   // 'teal': '#4dc0b5',
   'teal-light': '#64d5ca',
   'teal-lighter': '#a0f0ed',
-  // 'teal-lightest': '#e8fffe',
+  'teal-lightest': '#e8fffe',
 
   // 'blue-darkest': '#12283a',
   // 'blue-darker': '#1c3d5a',
@@ -109,7 +109,7 @@ let colors = {
   // 'indigo': '#6574cd',
   // 'indigo-light': '#7886d7',
   // 'indigo-lighter': '#b2b7ff',
-  // 'indigo-lightest': '#e6e8ff',
+  'indigo-lightest': '#e6e8ff',
 
   // 'purple-darkest': '#21183c',
   // 'purple-darker': '#382b5f',
@@ -575,15 +575,15 @@ module.exports = {
   */
 
   maxWidth: {
-    // xs: '20rem',
-    // sm: '30rem',
-    // md: '40rem',
-    // lg: '50rem',
-    // xl: '60rem',
-    // '2xl': '70rem',
-    // '3xl': '80rem',
-    // '4xl': '90rem',
-    // '5xl': '100rem',
+    xs: '20rem',
+    sm: '30rem',
+    md: '40rem',
+    lg: '50rem',
+    xl: '60rem',
+    '2xl': '70rem',
+    '3xl': '80rem',
+    '4xl': '90rem',
+    '5xl': '100rem',
     full: '100%'
   },
 
