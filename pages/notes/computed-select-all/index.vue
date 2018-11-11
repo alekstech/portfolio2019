@@ -1,30 +1,32 @@
 <template>
   <div class="min-h-full flex justify-center py-8 lg:py-12 px-4 lg:px-8 bg-indigo-lightest">
     <div class="flex flex-col max-w-sm">
-      <div class="flex flex-col">
-        <div class="flex items-center">
-          <input 
-            id="select-all"
-            v-model="allSelected"
-            type="checkbox"
-            class="mr-2 ">
-          <label 
-            for="select-all" 
-            class="font-semibold tracking-tight">Select all</label>
-        </div>
-        <div
-          v-for="(user, index) in users"
-          :key="index"
-          class="flex items-center mt-1">
-          <input 
-            :id="`user${index}`"
-            v-model="user.selected"
-            :aria-label="`${user.name}`"
-            type="checkbox"
-            class="mr-2">
-          <label 
-            :key="`label-${index}`"
-            :for="`user${index}`">{{ user.name }}</label>  
+      <div class="flex flex-col items-center">
+        <div>
+          <div class="flex items-center">
+            <input 
+              id="select-all"
+              v-model="allSelected"
+              type="checkbox"
+              class="mr-2 ">
+            <label 
+              for="select-all" 
+              class="font-semibold tracking-tight">Select all</label>
+          </div>
+          <div
+            v-for="(user, index) in users"
+            :key="index"
+            class="flex items-center mt-1">
+            <input 
+              :id="`user${index}`"
+              v-model="user.selected"
+              :aria-label="`${user.name}`"
+              type="checkbox"
+              class="mr-2">
+            <label 
+              :key="`label-${index}`"
+              :for="`user${index}`">{{ user.name }}</label>  
+          </div>
         </div>
       </div>
       <p class="mt-4 leading-loose">The easiest way to do a Select All checkbox is to <span class="font-mono">v-model</span> it on a <span class="font-mono">computed</span> property.</p>
