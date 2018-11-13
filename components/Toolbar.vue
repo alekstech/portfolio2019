@@ -32,7 +32,7 @@
       </div>
       <div class="hidden lg:block">
         <nuxt-link 
-          to="/portfolio" 
+          to="/portfolio"
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           projects
         </nuxt-link>

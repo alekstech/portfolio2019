@@ -3,10 +3,13 @@
     <div class="flex flex-col">
       <nuxt-link
         class="mt-2 p-1 text-black hover:text-pink-dark border border-indigo-lightest rounded focus:border-pink-dark focus:outline-none"
-        to="/notes/diffy-helman">Diffy-Helman</nuxt-link>
+        to="/notes/diffie–hellman">Diffie–Hellman</nuxt-link>
       <nuxt-link
         class="mt-2 p-1 text-black hover:text-pink-dark border border-indigo-lightest rounded focus:border-pink-dark focus:outline-none"
         to="/notes/computed-select-all">Computed Select All</nuxt-link>
+      <nuxt-link
+        class="mt-2 p-1 text-black hover:text-pink-dark border border-indigo-lightest rounded focus:border-pink-dark focus:outline-none"
+        to="/notes/git-snippets">git snippets</nuxt-link>
     </div>
   </main>
 </template>

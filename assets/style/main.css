@@ -41,6 +41,13 @@
   opacity: 0
 }
 
+.break-all {
+  word-break: break-all;
+}
+.nuxt-link-active {
+  font-weight: 700;
+}
+
 /**
 * This injects all of Tailwind's utility classes, generated based on your
 * config file.
