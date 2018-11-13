@@ -19,6 +19,9 @@ module.exports = {
       }
     }
   },
+  generate: {
+    fallback: 'error.html'
+  },
 
   /*
   ** Headers of the page
