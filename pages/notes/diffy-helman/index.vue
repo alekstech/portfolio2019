@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full flex flex-col items-center py-8 lg:py-12 px-4 lg:px-8 bg-indigo-lightest">
+  <main class="min-h-full flex flex-col items-center py-8 lg:py-12 px-4 lg:px-8 bg-indigo-lightest">
     <div class="flex flex-col items-center">
       <p class="text-lg tracking-wide font-semibold">The Diffy-Helman key exchange.</p>
       <p class="mt-4">Start with a number that both sides know. Call it the <span class="font-semibold tracking-wide">shared secret</span>.</p>
@@ -57,7 +57,7 @@
       <p class="mt-4">Your numbers match, allowing you to verify each other's identity.</p>
       <p class="leading-loose">And you never had to reveal your secret to one another.</p>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>

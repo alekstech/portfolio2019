@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full flex justify-center py-8 lg:py-12 px-4 lg:px-8 bg-indigo-lightest">
+  <main class="min-h-full flex justify-center py-8 lg:py-12 px-4 lg:px-8 bg-indigo-lightest">
     <div class="flex flex-col max-w-sm">
       <div class="flex flex-col items-center">
         <div>
@@ -32,7 +32,7 @@
       <p class="mt-4 leading-loose">The easiest way to do a Select All checkbox is to <span class="font-mono">v-model</span> it on a <span class="font-mono">computed</span> property.</p>
       <p class="mt-2 leading-loose">The <span class="font-mono">computed</span> property is not a <span class="font-mono">function</span>, as usual. It's an object with a <span class="font-mono">set()</span> and a <span class="font-mono">get()</span>. The <span class="font-mono">set()</span> flips the values of all checkboxes. The <span class="font-mono">get()</span> returns a boolean saying if all checkboxes are selected: <span class="font-mono">!this.users.some(user => !user.selected)</span></p>
     </div>
-  </div>
+  </main>
 
 </template>
 

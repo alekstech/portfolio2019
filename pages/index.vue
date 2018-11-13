@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-full flex flex-col justify-center items-center bg-yellow-lightest">
+  <main class="container h-full flex flex-col justify-center items-center bg-yellow-lightest">
     <p 
       aria-label="cheshch footnote one text-xl">
       Cześć <sup><small>*</small></sup>
@@ -32,5 +32,5 @@
     >
       projects
     </nuxt-link>
-  </div>
+  </main>
 </template>

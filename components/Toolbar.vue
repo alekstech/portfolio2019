@@ -22,6 +22,7 @@
         class="block lg:hidden">
         <button 
           class="flex items-center px-3 py-2 text-black border rounded border-teal-light hover:text-yellow-lightest hover:border-yellow-lightest focus:border-pink-dark focus:outline-none" 
+          aria-label="Toggle menu"
           @click="toggleNavbar()">
           <svg 
             class="fill-current h-3 w-3" 
