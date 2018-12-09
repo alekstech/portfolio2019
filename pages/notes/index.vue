@@ -10,6 +10,9 @@
       <nuxt-link
         class="mt-2 p-1 text-black hover:text-pink-dark border border-indigo-lightest rounded focus:border-pink-dark focus:outline-none"
         to="/notes/git-snippets">git snippets</nuxt-link>
+      <nuxt-link
+        class="mt-2 p-1 text-black hover:text-pink-dark border border-indigo-lightest rounded focus:border-pink-dark focus:outline-none"
+        to="/notes/the-rest-prop">the <span class="font-mono">rest</span> prop</nuxt-link>
     </div>
   </main>
 </template>
