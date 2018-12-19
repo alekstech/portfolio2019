@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="icon-logo"
+   width="100"
+   height="100"
+   viewBox="0 0 916 220"
+   version="1.1"
+   sodipodi:docname="StencilLogo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata29">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs27" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview25"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1.2401747"
+     inkscape:cx="345.90744"
+     inkscape:cy="25.496023"
+     inkscape:window-x="-8"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="icon-logo" />
+  <g
+     id="g20"
+     transform="matrix(4.2565056,0,0,4.2565056,-15.749073,-358.21562)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path18"
+       d="M 145.1,2.4 H 77.5 C 36.9,2.4 3.7,35.6 3.7,76.2 v 67.6 c 0,40.6 33.2,73.8 73.8,73.8 h 67.6 c 40.6,0 73.8,-33.2 73.8,-73.8 V 76.2 C 218.9,35.6 185.7,2.4 145.1,2.4 Z m 16.6,142.1 c 0,11.3 -16.4,20.5 -27.7,20.5 H 88.6 c -11.3,0 -27.7,-9.2 -27.7,-20.5 v -1.1 h 100.8 z m 0,-23.7 H 88.6 c -11.3,0 -27.7,-9.2 -27.7,-20.5 V 99.2 H 134 c 11.3,0 27.7,9.2 27.7,20.5 z m 0,-44.2 H 60.9 V 75.5 C 60.9,64.2 77.3,55 88.6,55 H 134 c 11.3,0 27.7,9.2 27.7,20.5 z" />
+  </g>
+</svg>

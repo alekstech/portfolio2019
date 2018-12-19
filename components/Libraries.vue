@@ -20,6 +20,7 @@ import MaterialUILogo from '~/assets/images/MaterialUILogo.svg';
 import AccessibilityLogo from '~/assets/images/AccessibilityLogo.svg';
 import MongoDBLogo from '~/assets/images/MongoDBLogo.svg';
 import ReduxLogo from '~/assets/images/ReduxLogo.svg';
+import StencilLogo from '~/assets/images/StencilLogo.svg';
 import SequelizeLogo from '~/assets/images/SequelizeLogo.svg';
 import TailwindCSSLogo from '~/assets/images/TailwindCSSLogo.svg';
 import BulmaLogo from '~/assets/images/BulmaLogo.svg';
@@ -41,6 +42,10 @@ export default {
       {
         name: 'React, redux',
         image: ReactLogo
+      },
+      {
+        name: 'Stencil (web components)',
+        image: StencilLogo
       },
       {
         name: 'Vuetify',

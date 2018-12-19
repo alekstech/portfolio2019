@@ -10,6 +10,7 @@ import List from '~/components/List';
 import HTMLLogo from '~/assets/images/HTMLLogo.svg';
 import CSSLogo from '~/assets/images/CSSLogo.svg';
 import JavaScriptLogo from '~/assets/images/JavaScriptLogo.svg';
+import TypeScriptLogo from '~/assets/images/TypeScriptLogo.svg';
 import PostgreSQLLogo from '~/assets/images/PostgreSQLLogo.svg';
 import PHPLogo from '~/assets/images/PHPLogo.svg';
 import PythonLogo from '~/assets/images/PythonLogo.svg';
@@ -33,16 +34,12 @@ export default {
         image: JavaScriptLogo
       },
       {
-        name: 'basic SQL',
+        name: 'TypeScript',
+        image: TypeScriptLogo
+      },
+      {
+        name: 'SQL',
         image: PostgreSQLLogo
-      },
-      {
-        name: 'passive exposure to PHP',
-        image: PHPLogo
-      },
-      {
-        name: 'passive exposure to Python',
-        image: PythonLogo
       }
     ]
   })

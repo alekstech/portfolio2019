@@ -30,19 +30,25 @@ export default {
         name: 'brochure sites'
       },
       {
-        name: 'a Find A Location Near You widget'
+        name: 'a store finder'
       },
       {
-        name: 'an ordering widget'
+        name: 'an ordering cart'
       },
       {
-        name: 'an accessibility (AODA) layer for a brochure site'
+        name: 'an appointment scheduler (web component / custom HTML element)'
       },
       {
-        name: 'a custom user interaction logger'
+        name: 'accessibility (AODA) layers'
       },
       {
         name: 'internationalization layers'
+      },
+      {
+        name: 'permissions-based UIs'
+      },
+      {
+        name: 'a custom user events logger'
       }
     ]
   })
