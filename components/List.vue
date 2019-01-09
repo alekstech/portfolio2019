@@ -12,6 +12,13 @@
           :src="item.image"
           :alt="`${item.name} logo`"
           class="fill-current h-6 w-6 mr-2">
+        <div
+          v-else
+          aria-hidden="true"
+          class="w-6 h-6 flex justify-center items-center mr-2"
+        >
+          {{ initials(item.name) }}
+        </div>
         {{ item.name }}
       </li>
     </ul>
@@ -30,6 +37,23 @@ export default {
       default: () => [],
       required: true,
       type: Array
+    }
+  },
+  methods: {
+    initials: function(string, length = 2) {
+      let initials = [];
+      try {
+        const words = string.split(' ');
+        for (let word of words) {
+          if (initials.length < length) {
+            initials.push(word.substring(0, 1));
+          }
+        }
+        return initials.join(' ');
+      } catch (e) {
+        e = 'shh';
+        return '';
+      }
     }
   }
 };

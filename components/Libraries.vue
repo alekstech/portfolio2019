@@ -60,6 +60,9 @@ export default {
         image: MaterialUILogo
       },
       {
+        name: 'Hammer.js'
+      },
+      {
         name: 'Nuxt',
         image: NuxtLogo
       },
