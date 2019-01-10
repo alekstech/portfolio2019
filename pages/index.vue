@@ -1,5 +1,5 @@
 <template>
-  <main class="container h-full flex flex-col justify-center items-center bg-yellow-lightest">
+  <main class="container h-full flex flex-col justify-center items-center bg-yellow-lightest subpixel-antialiased">
     <div class="max-w-sm text-center">
       <p 
         aria-label="cheshch footnote one"
@@ -18,7 +18,12 @@
 
       </div>
       <p class="mt-12 font-serif leading-normal text-xl text-left text-base">
-        I know how to make an server-side rendered React web app and a GraphQL backend for it. But I couldn't solve an XOr gate problem without a reference manual. Come to think of it, I couldn't do most of my work without reference manuals.
+        I know how to make an server-side rendered web app and a cloud backend for it. I couldn't solve an XOr gate problem without a reference manual. Come to think of it, I couldn't do most of my work without reference manuals. I really like 
+        <a
+          class="text-black"
+          target="_blank"
+          href="monday.com"
+        >monday</a>.
       </p>
       <p
         class="mt-12 font-serif text-left text-base font-light"

@@ -13,11 +13,11 @@
           :alt="`${item.name} logo`"
           class="fill-current h-6 w-6 mr-2">
         <div
-          v-else
+          v-else-if="item.initials"
           aria-hidden="true"
           class="w-6 h-6 flex justify-center items-center mr-2"
         >
-          {{ initials(item.name) }}
+          {{ item.initials }}
         </div>
         {{ item.name }}
       </li>
