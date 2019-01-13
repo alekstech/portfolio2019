@@ -1,12 +1,12 @@
 export const state = () => ({
-  sidebar: false
+  navbar: false
 });
 
 export const mutations = {
   toggleNavbar(state) {
-    state.sidebar = !state.sidebar;
+    state.navbar = !state.navbar;
   },
   closeNavbar(state) {
-    state.sidebar = false;
+    state.navbar = false;
   }
 };

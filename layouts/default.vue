@@ -1,22 +1,33 @@
 <template>
-  <div class="container min-h-screen h-screen pt-16 relative">
+  <div class="relative h-full pt-16 overflow-y-hidden">
     <toolbar />
-    <transition
-      name="fade"
-      mode="out-in"
+    <div
+      :class="{'overflow-y-auto' : !navbar}"
+      class="h-full"
     >
-      <nuxt />
-    </transition>
+      <transition
+        name="fade"
+        mode="out-in"
+      >
+        <nuxt />
+      </transition>
+    </div>
   </div>
 </template>
 
 <script>
 import Toolbar from '~/components/Toolbar';
+import { mapState } from 'vuex';
 
 export default {
   name: 'DefaultLayout',
   components: {
     toolbar: Toolbar
+  },
+  computed: {
+    ...mapState({
+      navbar: state => state.navbar
+    })
   }
 };
 </script>

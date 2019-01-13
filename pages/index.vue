@@ -1,13 +1,13 @@
 <template>
-  <main class="container h-full flex flex-col justify-center items-center bg-yellow-lightest subpixel-antialiased">
-    <div class="max-w-sm text-center">
+  <main class="container min-h-full flex flex-col justify-center items-center bg-yellow-lightest subpixel-antialiased">
+    <div class="max-w-sm p-8 text-center">
       <p 
         aria-label="cheshch footnote one"
         class="text-3xl text-left"
       >
         Cześć<sup><small>*</small></sup>,
       </p>
-      <p class="mt-4 text-xl">My name is Aleks</p>
+      <p class="mt-8 text-xl">My name is Aleks</p>
       <p class="mt-2 text-xl">I'm a web developer</p>
       <div class="mt-8 flex justify-center items-center">
         <img 
@@ -17,16 +17,16 @@
         <p class="text-base">Toronto</p>
 
       </div>
-      <p class="mt-12 font-serif leading-normal text-xl text-left text-base">
-        I know how to make an server-side rendered web app and a cloud backend for it. I couldn't solve an XOr gate problem without a reference manual. Come to think of it, I couldn't do most of my work without reference manuals. I really like 
+      <p class="mt-8 font-serif leading-normal text-xl text-left text-base">
+        I can make a server-side rendered web app and a cloud backend for it. I couldn't solve an XOr gate problem without a reference manual. Come to think of it, I couldn't do most of my work without reference manuals. I really like 
         <a
           class="text-black"
           target="_blank"
-          href="monday.com"
+          href="https://monday.com"
         >monday</a>.
       </p>
       <p
-        class="mt-12 font-serif text-left text-base font-light"
+        class="mt-8 font-serif text-left text-base font-light"
         aria-label="legend"
       >
         <small>

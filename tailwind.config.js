@@ -768,11 +768,11 @@ module.exports = {
   */
 
   opacity: {
-    // '0': '0',
-    // '25': '.25',
-    // '50': '.5',
-    // '75': '.75',
-    // '100': '1'
+    '0': '0',
+    '25': '.25',
+    '50': '.5',
+    '75': '.75',
+    '100': '1'
   },
 
   /*
@@ -862,7 +862,7 @@ module.exports = {
     objectPosition: false,
     opacity: ['responsive'],
     outline: ['focus'],
-    overflow: false,
+    overflow: ['responsive'],
     padding: ['responsive'],
     pointerEvents: false,
     position: ['responsive'],
