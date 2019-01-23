@@ -1,6 +1,6 @@
 <template>
   <main class="container min-h-full flex flex-col justify-center items-center bg-yellow-lightest subpixel-antialiased">
-    <div class="max-w-sm p-8 text-center">
+    <div class="lg:max-w-md md:max-w-sm p-8 text-center">
       <p 
         aria-label="cheshch footnote one"
         class="text-3xl text-left"
@@ -18,7 +18,10 @@
 
       </div>
       <p class="mt-8 font-serif leading-normal text-xl text-left text-base">
-        I can make a server-side rendered web app and a cloud backend for it. I couldn't solve an XOr gate problem without a reference manual. Come to think of it, I couldn't do most of my work without reference manuals. I really like 
+        I am front end web developer. I'm as familiar with the CSS cascade as I am with ES6. I can make a server-side rendered web app and a cloud backend for it. I know a few rendering libraries, have used a range of browser packages and have solid project skills. I like working on collaborative projects and keeping current with web technologies.
+      </p>
+      <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
+        I really like 
         <a
           class="text-black"
           target="_blank"
