@@ -7,6 +7,7 @@
       >
         Cześć<sup><small>*</small></sup>,
       </p>
+      <rotating-text />
       <p class="mt-8 text-xl">My name is Aleks</p>
       <p class="mt-2 text-xl">I'm a web developer</p>
       <div class="mt-8 flex justify-center items-center">
@@ -49,3 +50,12 @@
     </div>
   </main>
 </template>
+
+<script>
+import RotatingText from '@/components/RotatingText.vue';
+export default {
+  components: {
+    RotatingText
+  }
+};
+</script>
