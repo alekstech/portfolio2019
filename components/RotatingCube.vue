@@ -56,48 +56,48 @@ export default {
     front: {
       x: 0,
       y: 0,
-      left: 'left',
-      right: 'right',
+      left: 'right',
+      right: 'left',
       up: 'top',
       down: 'bottom'
     },
     back: {
       x: 0,
       y: -180,
-      left: 'right',
-      right: 'left',
+      left: 'left',
+      right: 'right',
       up: 'top',
       down: 'bottom'
     },
     left: {
       x: 0,
       y: 90,
-      left: 'back',
-      right: 'front',
+      left: 'front',
+      right: 'back',
       up: 'top',
       down: 'bottom'
     },
     right: {
       x: 0,
       y: -90,
-      left: 'front',
-      right: 'back',
+      left: 'back',
+      right: 'front',
       up: 'top',
       down: 'bottom'
     },
     top: {
       x: -90,
       y: 0,
-      left: 'left',
-      right: 'right',
+      left: 'right',
+      right: 'left',
       up: 'back',
       down: 'front'
     },
     bottom: {
       x: 90,
       y: 0,
-      left: 'left',
-      right: 'right',
+      left: 'right',
+      right: 'left',
       up: 'front',
       down: 'back'
     }
