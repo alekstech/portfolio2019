@@ -7,6 +7,7 @@
       >
         Cześć<sup><small>*</small></sup>,
       </p>
+      <rotating-cube />
       <rotating-text />
       <p class="mt-8 text-xl">My name is Aleks</p>
       <p class="mt-2 text-xl">I'm a web developer</p>
@@ -53,9 +54,11 @@
 
 <script>
 import RotatingText from '@/components/RotatingText.vue';
+import RotatingCube from '@/components/RotatingCube.vue';
 export default {
   components: {
-    RotatingText
+    RotatingText,
+    RotatingCube
   }
 };
 </script>
