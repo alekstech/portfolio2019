@@ -40,7 +40,11 @@
 
 <script>
 /* Based on Nour Saud's work: https://codepen.io/nourabusoud/pen/BxJbjJ */
-import Hammer from 'hammerjs';
+/* eslint-disable */
+if (process.client) {
+  const Hammer = require('hammerjs');
+}
+/* eslint-enable */
 
 export default {
   data: () => ({
