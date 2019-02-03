@@ -8,7 +8,7 @@
         Cześć<sup><small>*</small></sup>,
       </p>
       <rotating-cube />
-      <rotating-text />
+      <!-- <rotating-text /> -->
       <p class="mt-8 text-xl">My name is Aleks</p>
       <p class="mt-2 text-xl">I'm a web developer</p>
       <div class="mt-8 flex justify-center items-center">

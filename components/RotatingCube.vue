@@ -50,12 +50,14 @@ export default {
   data: () => ({
     x: 0,
     y: 0,
-    z: -100,
+    z: 0,
+    perspective: -100,
     hammer: null,
     faces: ['front', 'back', 'left', 'right', 'top', 'bottom'],
     front: {
       x: 0,
       y: 0,
+      z: 0,
       left: 'right',
       right: 'left',
       up: 'top',
@@ -64,6 +66,7 @@ export default {
     back: {
       x: 0,
       y: -180,
+      z: 0,
       left: 'left',
       right: 'right',
       up: 'top',
@@ -72,6 +75,7 @@ export default {
     left: {
       x: 0,
       y: 90,
+      z: 0,
       left: 'front',
       right: 'back',
       up: 'top',
@@ -80,6 +84,7 @@ export default {
     right: {
       x: 0,
       y: -90,
+      z: 0,
       left: 'back',
       right: 'front',
       up: 'top',
@@ -88,6 +93,7 @@ export default {
     top: {
       x: -90,
       y: 0,
+      z: 0,
       left: 'right',
       right: 'left',
       up: 'back',
@@ -96,6 +102,7 @@ export default {
     bottom: {
       x: 90,
       y: 0,
+      z: 0,
       left: 'right',
       right: 'left',
       up: 'front',
@@ -105,9 +112,10 @@ export default {
   computed: {
     transform() {
       return `
-        translateZ(${this.z}px) 
+        translateZ(${this.perspective}px) 
         rotateX(${this.x}deg) 
-        rotateY(${this.y}deg)
+        rotateY(${this.y}deg) 
+        rotateZ(${this.z}deg)
       `;
     },
     face() {
@@ -130,26 +138,34 @@ export default {
   methods: {
     rotate(ev) {
       if (ev.isFinal) {
-        let to;
         // pan up
         if (ev.angle > -135 && ev.angle < -45) {
-          to = this.face.up;
+          this.x += 90;
         }
         // pan down
         else if (ev.angle > 45 && ev.angle < 135) {
-          to = this.face.down;
+          this.x -= 90;
         }
         // pan left
         else if (Math.abs(ev.angle) > 135) {
-          to = this.face.left;
+          if (this.x === -90) {
+            this.z -= 90;
+          } else if (this.x === 90) {
+            this.z -= 90;
+          } else {
+            this.y -= 90;
+          }
         }
         // pan right
         else if (Math.abs(ev.angle) < 45) {
-          to = this.face.right;
+          if (this.x === -90) {
+            this.z += 90;
+          } else if (this.x === 90) {
+            this.z -= 90;
+          } else {
+            this.y += 90;
+          }
         }
-        const { x, y } = this[to];
-        this.x = x;
-        this.y = y;
       }
     }
   }
