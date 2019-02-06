@@ -7,7 +7,6 @@
       >
         Cześć<sup><small>*</small></sup>,
       </p>
-      <rotating-cube />
       <p class="mt-8 text-xl">My name is Aleks</p>
       <p class="mt-2 text-xl">I'm a web developer</p>
       <div class="mt-8 mb-6 flex justify-center items-center">
@@ -19,7 +18,7 @@
       </div>
       <rotating-text />
       <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
-        I am a front end web developer. I'm as familiar with the CSS cascade as I am with ES6. I can make a server-side rendered web app and a cloud backend for it. I know a few rendering libraries, have used a range of browser packages and have solid project skills. I like working on collaborative projects and keeping current with web technologies.
+        I'm as familiar with the CSS cascade as I am with ES6. I can make a server-side rendered web app and a cloud backend for it. I know a few rendering libraries, have used a range of browser packages and have solid project skills. I like working on collaborative projects and keeping current with web technologies.
       </p>
       <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
         I really like 
@@ -53,11 +52,9 @@
 
 <script>
 import RotatingText from '@/components/RotatingText.vue';
-import RotatingCube from '@/components/RotatingCube.vue';
 export default {
   components: {
-    RotatingText,
-    RotatingCube
+    RotatingText
   }
 };
 </script>
