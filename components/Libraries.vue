@@ -44,7 +44,7 @@ export default {
         image: ReactLogo
       },
       {
-        name: 'Stencil (web components)',
+        name: 'Stencil',
         image: StencilLogo
       },
       {

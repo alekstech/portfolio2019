@@ -2,8 +2,7 @@
   <div class="relative h-full pt-16 overflow-y-hidden">
     <toolbar />
     <div
-      :class="{'overflow-y-auto' : !navbar}"
-      class="h-full"
+      class="h-full overflow-y-auto"
     >
       <transition
         name="fade"

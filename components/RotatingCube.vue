@@ -137,6 +137,7 @@ export default {
   },
   methods: {
     rotate(ev) {
+      ev.preventDefault();
       if (ev.isFinal) {
         // pan up
         if (ev.angle > -135 && ev.angle < -45) {
@@ -148,9 +149,11 @@ export default {
         }
         // pan left
         else if (Math.abs(ev.angle) > 135) {
-          if (this.x === -90) {
+          if (Math.abs(this.x) % ) {
             this.z -= 90;
           } else if (this.x === 90) {
+            this.z -= 90;
+          } else if (this.x === -270) {
             this.z -= 90;
           } else {
             this.y -= 90;
@@ -161,7 +164,7 @@ export default {
           if (this.x === -90) {
             this.z += 90;
           } else if (this.x === 90) {
-            this.z -= 90;
+            this.z += 90;
           } else {
             this.y += 90;
           }

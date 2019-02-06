@@ -33,16 +33,19 @@ export default {
         header: 'keep track of multiple issues and communication channels'
       },
       {
-        header: 'update staging, production builds'
+        header: 'test and debug'
+      },
+      {
+        header: 'package, build and deploy'
       },
       {
         header: 'keep stakeholders informed and flag roadblocks'
       },
       {
-        header: 'independently work to goals'
+        header: 'independently work to goals and schedules'
       },
       {
-        header: 'learn and acquire new skills'
+        header: 'learn and keep current with industry trends'
       }
     ]
   })

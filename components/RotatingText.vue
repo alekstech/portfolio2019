@@ -1,6 +1,7 @@
 <template>
   <canvas
     ref="canvas"
+    class="canvas"
   />
 </template>
 
@@ -119,3 +120,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.canvas {
+  pointer-events: none;
+  max-width: 100%;
+  max-height: 100px;
+}
+</style>
