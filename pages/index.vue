@@ -16,6 +16,7 @@
           class="fill-current h-4 w-4 mr-2">
         <p class="text-base">Toronto</p>
       </div>
+      <rotating-text />
       <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
         I'm a web developer. I work with React, Vue and their ecosystems. I care about a11y and delivering a satisfying user experience.
       </p>
@@ -38,7 +39,7 @@
         </small>
       </p>
       <nuxt-link
-        to="/portfolio"
+        to="/projects"
         tag="button"
         class="bg-transparent hover:bg-teal-lighter text-base text-black font-lighter hover:text-yellow-lightest mt-8 py-4 px-8 border border-teal-lighter rounded focus:border-pink-dark focus:outline-none"
       >
@@ -59,6 +60,19 @@ export default {
   components: {
     RotatingText,
     IconSprite
+  },
+  head() {
+    return {
+      title: 'aleks.tech',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'home',
+          name: 'description',
+          content: 'Aleks Sobieraj web developer portfolio'
+        }
+      ]
+    };
   }
 };
 </script>

@@ -14,6 +14,19 @@ export default {
   components: {
     skills: Skills,
     teamwork: Teamwork
+  },
+  head() {
+    return {
+      title: 'aleks.tech skills',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'skills',
+          name: 'description',
+          content: 'Skills and experience'
+        }
+      ]
+    };
   }
 };
 </script>

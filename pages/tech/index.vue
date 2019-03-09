@@ -24,6 +24,19 @@ export default {
     tools: Tools,
     libraries: Libraries,
     deployment: Deployment
+  },
+  head() {
+    return {
+      title: 'aleks.tech tech',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'tech',
+          name: 'description',
+          content: 'Technical skills, libraries, tools'
+        }
+      ]
+    };
   }
 };
 </script>

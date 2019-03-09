@@ -10,6 +10,19 @@ import Contact from '~/components/Contact';
 export default {
   components: {
     contact: Contact
+  },
+  head() {
+    return {
+      title: 'aleks.tech contact',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'contact',
+          name: 'description',
+          content: 'Contact, email, LinkedIn'
+        }
+      ]
+    };
   }
 };
 </script>

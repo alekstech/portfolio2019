@@ -33,7 +33,7 @@
       </div>
       <div class="hidden lg:block mx-2">
         <nuxt-link 
-          to="/portfolio"
+          to="/projects"
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           projects
         </nuxt-link>
@@ -47,11 +47,11 @@
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           tech
         </nuxt-link>
-        <nuxt-link 
-          to="/notes" 
+        <a 
+          href="https://notes.aleks.tech" 
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           notes
-        </nuxt-link>
+        </a>
         <nuxt-link 
           to="/contact" 
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
@@ -69,7 +69,7 @@
       >
         <div class="flex flex-col items-center overflow-y-auto bg-teal-lighter ">
           <nuxt-link 
-            to="/portfolio"
+            to="/projects"
             class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             projects
           </nuxt-link>
@@ -83,11 +83,11 @@
             class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             tech
           </nuxt-link>
-          <nuxt-link 
-            to="/notes" 
+          <a 
+            href="https://notes.aleks.tech" 
             class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             notes
-          </nuxt-link>
+          </a>
           <nuxt-link 
             to="/contact" 
             class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 mb-4 lg:mb-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
