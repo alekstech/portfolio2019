@@ -1,7 +1,7 @@
 <template>
   <div 
     :class="{'h-screen' : open}"
-    class="fixed pin-t z-10 w-screen flex flex-col bg-transparent"
+    class="fixed pin-t z-10 w-full flex flex-col bg-transparent"
     @click="closeNavbar()"
   >
     <nav
