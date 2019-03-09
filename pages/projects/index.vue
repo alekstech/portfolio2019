@@ -13,7 +13,7 @@ export default {
   },
   head() {
     return {
-      title: 'aleks.tech projects',
+      title: 'projects | aleks.tech',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
