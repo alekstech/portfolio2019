@@ -1,8 +1,8 @@
 <template>
-  <div class="relative h-full pt-16 overflow-y-hidden">
+  <div class="relative h-full pt-16">
     <toolbar />
     <div
-      class="h-full overflow-y-auto"
+      class="h-full"
     >
       <transition
         name="fade"

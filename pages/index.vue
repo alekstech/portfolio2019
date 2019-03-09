@@ -16,17 +16,15 @@
           class="fill-current h-4 w-4 mr-2">
         <p class="text-base">Toronto</p>
       </div>
-      <rotating-text />
       <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
-        I'm as familiar with the CSS cascade as I am with ES6. I can make a server-side rendered web app and a cloud backend for it. I know a few rendering libraries, have used a range of browser packages and have solid project skills. I like working on collaborative projects and keeping current with web technologies.
+        I'm a web developer. I work with React, Vue and their ecosystems. I care about a11y and delivering a satisfying user experience.
       </p>
       <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
-        I really like 
-        <a
-          class="text-black"
-          target="_blank"
-          href="https://monday.com"
-        >monday</a>.
+        Enjoy my little CloudFront-accelerated, lambda-augumented, pre-rendered, svg-illustrated little site.
+        <img 
+          src="~/assets/images/WinkyFace.svg" 
+          alt="Location marker"
+          class="fill-current h-4 w-4 mr-2">
       </p>
       <p
         class="mt-8 font-serif text-left text-base font-light"
@@ -45,6 +43,10 @@
         class="bg-transparent hover:bg-teal-lighter text-base text-black font-lighter hover:text-yellow-lightest mt-8 py-4 px-8 border border-teal-lighter rounded focus:border-pink-dark focus:outline-none"
       >
         projects
+        <!-- <svg 
+          className="App-icon">
+          <use xlink:href="/IconsSprite.svg#circle" />
+        </svg> -->
       </nuxt-link>
     </div>
   </main>
@@ -52,9 +54,11 @@
 
 <script>
 import RotatingText from '@/components/RotatingText.vue';
+import IconSprite from '@/assets/images/IconsSprite.svg';
 export default {
   components: {
-    RotatingText
+    RotatingText,
+    IconSprite
   }
 };
 </script>

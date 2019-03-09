@@ -37,7 +37,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description },
       { name: 'theme-color', content: '#a0f0ed' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: './IconsSprite.svg' }]
   },
 
   /*
