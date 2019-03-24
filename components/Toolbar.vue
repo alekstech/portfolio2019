@@ -52,6 +52,11 @@
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
           notes
         </a>
+        <a 
+          href="https://journal.aleks.tech" 
+          class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none mr-4">
+          journal
+        </a>
         <nuxt-link 
           to="/contact" 
           class="no-underline block mt-4 p-2 lg:inline-block lg:mt-0 text-black hover:text-pink-dark border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
@@ -87,6 +92,11 @@
             href="https://notes.aleks.tech" 
             class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
             notes
+          </a>
+          <a 
+            href="https://journal.aleks.tech" 
+            class="no-underline block mt-4 py-4 lg:py-0 px-8 lg:px-0 lg:inline-block lg:mt-0 text-black hover:text-pink-dark lg:mr-4 border rounded border-teal-lighter focus:border-pink-dark focus:outline-none">
+            journal
           </a>
           <nuxt-link 
             to="/contact" 

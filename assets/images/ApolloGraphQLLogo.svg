@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg6"
+   sodipodi:docname="ApolloGraphQLLogo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="-9"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     id="g4"
+     transform="matrix(0.390625,0,0,0.390625,0,1.953125e-4)">
+    <path
+       d="m 160.227,178.5186 h 27.63 L 143.75,64.0486 h -30.549 l -44.107,114.47 h 27.632 l 7.208,-19.39 h 41.675 l -7.544,-21.456 h -27.44 l 17.85,-49.254 z M 251.339,93.768 c -0.982,-3.536 -4.634,-5.613 -8.185,-4.627 -3.537,0.982 -5.61,4.646 -4.628,8.183 2.773,9.985 4.178,20.306 4.178,30.676 0,63.248 -51.456,114.702 -114.704,114.702 C 64.752,242.702 13.297,191.248 13.297,128 13.297,64.751 64.752,13.296 128,13.296 c 26.793,0 52.718,9.518 73.179,26.456 -0.796,1.9 -1.238,3.985 -1.238,6.173 0,8.835 7.162,15.997 15.997,15.997 8.835,0 15.997,-7.162 15.997,-15.997 0,-8.835 -7.162,-15.997 -15.997,-15.997 -1.701,0 -3.338,0.271 -4.876,0.763 C 188.022,11.056 158.513,0 128,0 57.421,0 0,57.42 0,128 c 0,70.579 57.421,127.999 128,127.999 70.579,0 128,-57.42 128,-127.999 0,-11.572 -1.567,-23.09 -4.661,-34.232 z"
+       id="path2"
+       inkscape:connector-curvature="0"
+       style="fill:#112b49" />
+  </g>
+</svg>

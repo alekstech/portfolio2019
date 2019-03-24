@@ -26,7 +26,7 @@ export default {
         image: HTMLLogo
       },
       {
-        name: 'CSS (some SASS, some Stylus)',
+        name: 'CSS',
         image: CSSLogo
       },
       {

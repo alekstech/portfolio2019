@@ -28,6 +28,9 @@ import BootstrapLogo from '~/assets/images/BootstrapLogo.svg';
 import GoogleChartsLogo from '~/assets/images/GoogleChartsLogo.svg';
 import GoogleMapsLogo from '~/assets/images/GoogleMapsLogo.svg';
 import ChartJSLogo from '~/assets/images/ChartJSLogo.svg';
+import StyledComponentsLogo from '~/assets/images/StyledComponentsLogo.png';
+import GraphQLLogo from '~/assets/images/GraphQLLogo.svg';
+import ApolloGraphQLLogo from '~/assets/images/ApolloGraphQLLogo.svg';
 
 export default {
   components: {
@@ -68,6 +71,10 @@ export default {
         image: NuxtLogo
       },
       {
+        name: 'Styled Components',
+        image: StyledComponentsLogo
+      },
+      {
         name: 'TailwindCSS',
         image: TailwindCSSLogo
       },
@@ -98,6 +105,14 @@ export default {
       {
         name: 'Express',
         image: ExpressLogo
+      },
+      {
+        name: 'Apollo GraphQL',
+        image: ApolloGraphQLLogo
+      },
+      {
+        name: 'GraphQL',
+        image: GraphQLLogo
       },
       {
         name: 'Sequelize',
