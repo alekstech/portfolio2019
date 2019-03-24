@@ -1,18 +1,4 @@
-# nuxt2
+# [aleks.tech](https://aleks.tech) portfolio
 
-CLI scripts
-
-``` bash
-
-$ npm install
-
-$ npm run dev
-
-# lint, process and bundle source code
-$ npm run build
-# serve bundled source from a local socket; on source change, recompile and reload (HMR)
-$ npm start
-
-# compile for production
-$ npm run generate
-```
+Built with Vue and Nuxt
+Styled with TailwindCSS
