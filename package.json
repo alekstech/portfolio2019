@@ -18,12 +18,10 @@
     "cross-env": "^5.2.1",
     "express": "^4.17.1",
     "hammerjs": "^2.0.8",
-    "nuxt": "^2.10.2",
-    "three": "^0.100.0",
-    "three-orbitcontrols": "^2.108.1"
+    "nuxt": "^2.10.2"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.7.1",
     "babel-eslint": "^8.2.1",
     "css-loader": "^1.0.0",
     "eslint": "^5.16.0",

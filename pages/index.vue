@@ -16,7 +16,6 @@
           class="fill-current h-4 w-4 mr-2">
         <p class="text-base">Toronto</p>
       </div>
-      <rotating-text />
       <p class="mt-2 font-serif leading-normal text-xl text-left text-base">
         I'm a web developer. I work with React, Vue and their ecosystems. I care about a11y and delivering a satisfying user experience.
       </p>
@@ -54,11 +53,9 @@
 </template>
 
 <script>
-import RotatingText from '@/components/RotatingText.vue';
 import IconSprite from '@/assets/images/IconsSprite.svg';
 export default {
   components: {
-    RotatingText,
     IconSprite
   },
   head() {
